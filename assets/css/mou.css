@@ -1,0 +1,92 @@
+        p.intro{  
+            border-top: 1px solid #00cccc;
+            border-width: 3px;
+            padding: 0.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+        img:hover {
+        	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+        }
+        img{
+        	display: block;
+        	margin-right: auto;
+        	margin-left: auto;	
+        }
+              .supraja{
+        	width:100%;
+        	display: block;
+        	margin-right: auto;
+        	margin-left: auto;
+        }
+        .eduskills,.paloalto{
+            width: 100%;
+            display: block;
+        	margin-right: auto;
+        	margin-left: auto;
+        }
+        .redhat{
+            width: 100%;
+            display: block;
+        	margin-right: auto;
+        	margin-left: auto;
+        }
+        .cisco,.blueprisms{
+            width: 100%;
+            display: block;
+        	margin-right: auto;
+        	margin-left: auto;
+        }
+        .swecha{
+        	width:100%;
+        	display: block;
+        	margin-right: auto;
+        	margin-left: auto;
+        }
+        .blackbuck{
+            width: 100%;
+            display: block;
+        	margin-right: auto;
+        	margin-left: auto;
+        }
+        .awsacademy{
+            width: 100%;
+            display: block;
+        	margin-right: auto;
+        	margin-left: auto;
+}
+        @keyframes mymove {
+        	50% {
+        		box-shadow: 10px 20px 30px grey;
+        		}
+        	}
+        .container {
+        	animation: mymove 5s infinite;
+            flex-wrap: wrap;
+            border-color:blanchedalmond;
+        	box-shadow: 1px 1px;
+        	border-style: solid;
+        	margin-bottom: 10px;
+        	margin-top: 10px;
+        	padding-bottom: 20px;
+        }
+        @media screen and (max-width: 500px) {
+        	.eduskills, .blackbuck, .cisco,.blueprisms,.redhat,.swecha,.paloalto,.supraja {
+        		width: 50%; /* The width is 100%, when the viewport is 800px or smaller */
+        		justify-content: space-around;
+        		display: flex;
+        		}
+        	}
+        @media only screen and (min-width: 481px) and (max-width: 767px){
+        	.eduskills, .blackbuck, .cisco,.blueprisms,.redhat,.swecha,.paloalto,.supraja {
+        		width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        		justify-content: space-around;
+        		display: flex;
+        	}
+        }
+        @media only screen and (min-width:0px) and (max-width:480px){
+        .eduskills, .blackbuck, .cisco,.blueprisms,.redhat,.swecha,.paloalto,.supraja {
+        		width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        		justify-content: space-around;
+        		display: flex;
+        	}
+        }	

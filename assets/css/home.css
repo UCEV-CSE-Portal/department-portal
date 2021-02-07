@@ -1,0 +1,19 @@
+
+		.profileImg{
+			width: 100%;
+		}
+		.card{
+			box-shadow: 3px 6px #aaa;
+		}
+		.card-header{
+			background-color: #069;
+			color:#fff;
+		}
+		@media only screen and (max-width: 900px){
+			.missionDp{
+				display: none;
+			}
+			.mobmargin{
+				margin-top: 2rem;
+			}
+		}

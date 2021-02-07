@@ -1,0 +1,115 @@
+.separator-type, .title-type, .intro-type, .content-type .intro-type p {
+    position: relative;
+}
+.company-heading h1 {
+    margin-bottom: 40px;
+    line-height: 80px;
+    color: #fff;
+    font-weight: 700 !important;
+    text-align: center;
+}
+.seo-header, .product-header, .intro-type .container h1.white, .company-heading h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100 !important;
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.company-sections h2, .careers-sections h2, .perks-section h2 {
+    font-weight: 800;
+    font-size: 50px;
+}
+.company-sections h2, .company-sections h3, .careers-sections h2, .perks-section h2 {
+    font-family: 'proxima-nova', sans-serif;
+}
+.company-sections h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 14px 0;
+    font-family: 'proxima-nova', sans-serif;
+    text-transform: capitalize;
+}
+.red-border {
+    width: 50%;
+    border-bottom: 1px solid #d2282e;
+    margin: 0 auto;
+    height: 16px;
+}
+.ct-u-size22 {
+    font-size: 22px;
+}
+.ct-u-fontWeight300 {
+    font-weight: 300;
+}
+.marginTop40 {
+    margin-top: 20px !important;
+}
+.culture-section {
+     background-color: #99cccc; 
+}
+.company-sections, .careers-sections, .left-headquarter-section-img, .right-headquarter-section-img {
+    text-align: center;
+}
+.ct-u-paddingBoth100 {
+    padding: 20px 0px;
+}
+.company-sections h2, .careers-sections h2, .perks-section h2 {
+    font-weight: 1000;
+    font-size: 50px;
+}
+.company-sections h2, .company-sections h3, .careers-sections h2, .perks-section h2 {
+    font-family: 'proxima-nova', sans-serif;
+}
+.fa {
+  font-size: 38px;
+}
+.btn-solodev-red-reversed {
+    background-color: #666666;
+    color: #44ffff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    padding: 12px 35px;
+}
+.btn, .btn-blk {
+    font-size: 18px !Important;
+}
+a:hover {
+    color: #fff;
+}
+.culture-section {
+  background-size: cover;
+  color: #fff;
+}
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  position:center;
+  -ms-flex: 25%; 
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}

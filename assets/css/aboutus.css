@@ -1,0 +1,60 @@
+.company-sections h3 {
+    font-size: 20px;
+    font-weight: 700;
+  padding:10px;
+text-align:center;
+ text-transform: capitalize;
+}
+.culture-section{
+background-color:powderblue;
+}
+.red-border {
+    width: 50%;
+    border-bottom: 1px solid #cc0066;
+    margin: 0 auto;
+}
+.ct-u-size22 {
+    font-size: 20px;
+ padding:5px;
+}
+.company-sections ,.culture-section,.customers-section{
+   text-align: justify;
+}
+.company-sections h2,.culture-section h2 ,.customers-section h2{
+    font-weight: 1000;
+    font-size: 35px;
+  text-align: center;
+}
+.rows {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  position:center;
+  -ms-flex: 25%; 
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}

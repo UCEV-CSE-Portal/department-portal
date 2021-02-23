@@ -1,4 +1,5 @@
-    <div class="ucev-title">
+<head><link rel="stylesheet" href="nav.css"></head>
+<div class="ucev-title">
         <div class="logo-container">
               <img class="logoimg" src="assets/img/jntuk.png" alt="logo" />
                 <h3>UCEV Department of Computer Science and Engineering</span></h3>
@@ -79,7 +80,6 @@
                     </ul>
                 </div>
             </div>
-
             <div class="hamburger-menu-container">
                 <img src="assets/img/ucev.png" class="jntu-icon">
                 <div class="hamburger-menu">
@@ -88,4 +88,3 @@
             </div>
         <!-- </div> -->
     </header>
-    

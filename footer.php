@@ -16,12 +16,12 @@
                 <h6>Follow Us</h6>
                 <hr style="width:100%; height:1px; background: #fff">
               <!-- Social Media icons -->
-               <a href="https://www.facebook.com/JNTUK-UCEV-CSE-101164614971699" class="fa fa-facebook  "></a>
+               <a target="_blank" href="https://www.facebook.com/JNTUK-UCEV-CSE-101164614971699" class="fa fa-facebook  "></a>
                 &nbsp;<a target="_blank" href="https://www.instagram.com/jntuk_ucev_cse" class="fa fa-instagram"></a>
-                &nbsp;<a href="https://twitter.com/ucevcse?s=09" class="fa fa-twitter"></a>
-                &nbsp;<a href="https://www.linkedin.com/in/ucev-cse-a627a21b0" class="fa fa-linkedin "></a>
-                &nbsp;<a href="https://currents.google.com/u/1/" class="fa fa-google"></a>
-                &nbsp;<a href="https://m.youtube.com/channel/UCvRxJ6n7BpatbM4XB1AV8Lg" class="fa fa-youtube  "></a>
+                &nbsp;<a target="_blank" href="https://twitter.com/ucevcse?s=09" class="fa fa-twitter"></a>
+                &nbsp;<a target="_blank" href="https://www.linkedin.com/in/ucev-cse-a627a21b0" class="fa fa-linkedin "></a>
+                &nbsp;<a target="_blank" href="https://currents.google.com/u/1/" class="fa fa-google"></a>
+                &nbsp;<a target="_blank" href="https://m.youtube.com/channel/UCvRxJ6n7BpatbM4XB1AV8Lg" class="fa fa-youtube  "></a>
           
         </div>
     

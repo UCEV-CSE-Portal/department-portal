@@ -6,19 +6,19 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title> 
+  <title>
 Ashok Suragala profile</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
- <?php 
-  include 'facultylinks.php';
+ <?php
+  include 'nav.php';
   ?>
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
- 
+
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
- 
+
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
@@ -30,7 +30,7 @@ Ashok Suragala profile</title>
 
 
   <?php
-  include 'facultyheader.php';
+  include 'nav.php';
   ?>
   <main id="main">
 
@@ -40,7 +40,7 @@ Ashok Suragala profile</title>
 
         <div class="section-title">
           <h2>Ashok Suragala</h2>
-          
+
         </div>
 
         <div class="row">
@@ -49,7 +49,7 @@ Ashok Suragala profile</title>
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Assistant Professor</h3>
-          
+
             <div class="row">
               <div class="col-lg-6">
                 <ul>
@@ -57,10 +57,10 @@ Ashok Suragala profile</title>
 				  <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> M.Tech</li>
 				  <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> ashok.cse@jntukucev.ac.in</li>
 				  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> 9494464632</li>
-                  
+
                 </ul>
               </div>
-              
+
             </div>
             <p>
               <b>Message</b><br>
@@ -77,8 +77,19 @@ Ashok Suragala profile</title>
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-1"
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
           <h2>Educational Qualifications</h2>
-          <ul style="text-align: left;">
+        </a>
+      </h5>
+    </div>
+          <div id="collapse-1" class="collapse" data-parent="#accordion" aria-labelledby="heading-1">
+      <div class="card-body">
+        <ul style="text-align: left;">
             <li>
              <b> M.Tech., Computer Science & Technology, 2013
          </b><br>GITAM University, Andhra Pradesh, India.
@@ -98,6 +109,12 @@ ONLINE POST GRADUATE DIPLOMA IN DATA SCIENCE AND ANALYTICS 2020 (NIELIT Chennai)
         <div class="row skills-content">
 
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section><!-- End Skills Section -->
 
     <!-- ======= Facts Section ======= -->
@@ -105,12 +122,30 @@ ONLINE POST GRADUATE DIPLOMA IN DATA SCIENCE AND ANALYTICS 2020 (NIELIT Chennai)
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Professional Experience</h2><br>
-			<p>Working as an Assistant Professor in Department of Computer science and  Engineering , JNTUK- University College of Engineering Vizianagaram  since  AUG 2013 to Till date.   </p>     </div>
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-2">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+        <h2>Professional Experience</h2><br>
+        </a>
+      </h5>
+    </div>
+
+          <div id="collapse-2" class="collapse" data-parent="#accordion" aria-labelledby="heading-2">
+      <div class="card-body">
+        <p>Working as an Assistant Professor in Department of Computer science and  Engineering , JNTUK- University College of Engineering Vizianagaram  since  AUG 2013 to Till date.   </p>     </div>
 
         <div class="row counters">
 
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section><!-- End Facts Section -->
 
     <!-- ======= Testimonials Section ======= -->
@@ -118,78 +153,180 @@ ONLINE POST GRADUATE DIPLOMA IN DATA SCIENCE AND ANALYTICS 2020 (NIELIT Chennai)
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Research Interests</h2>
-          Decision Sciences (Health care Analytics and Clinical Outcome Predictions)<br>
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-3">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+        <h2>Research Interests</h2>
+        </a>
+      </h5>
+    </div>
+          <div id="collapse-3" class="collapse" data-parent="#accordion" aria-labelledby="heading-3">
+      <div class="card-body">
+        Decision Sciences (Health care Analytics and Clinical Outcome Predictions)<br>
 My research interests include making human-understandable machine learning models and algorithms,Data Science and Health care Analytics and Decision Sciences.
         </div>
+      </div>
+    </div>
+  </div>
 
-       
+</div>
+
+
+
     </section><!-- End Testimonials Section -->
-	
+
 <section id="Certifications" class="Certifications">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-4">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
           <h2>Professional Certifications</h2>
-		  <ol style="text-align: left;">
-			<li>Completed Professional Certification in <b>"Data Science and Big Data Analytics:
+        </a>
+      </h5>
+    </div>
+        <div id="collapse-4" class="collapse" data-parent="#accordion" aria-labelledby="heading-4">
+      <div class="card-body">
+        <ol style="text-align: left;">
+      <li>Completed Professional Certification in <b>"Data Science and Big Data Analytics:
  Making Data- Driven Decisions" from Massachusetts Institute of Technology,
  Cambridge, Massachusetts ,USA.</b></li>
-			<li>Completed Certification in <b>“Advanced Business Analytics with R"</b> from
+      <li>Completed Certification in <b>“Advanced Business Analytics with R"</b> from
  <b>IIT Hyderabad.</b>
 </li>
-			<li>Completed Certification in <b>Data Science for Engineers from IIT BOMBAY through
+      <li>Completed Certification in <b>Data Science for Engineers from IIT BOMBAY through
  NPTEL Online Courses</b></li>
-			<li>Completed Certification in <b>Advanced Business Analytics and Data Mining
+      <li>Completed Certification in <b>Advanced Business Analytics and Data Mining
  Modeling Using R from IIT Kanpur through NPTEL Online Courses</b></li>
-			<li>Completed Certification in <b>“Python for Data Science”</b> through Swayam</li>
-			<li> Completed Certification in <b>“Practical Machine Learning with Tensorflow”</b> through
+      <li>Completed Certification in <b>“Python for Data Science”</b> through Swayam</li>
+      <li> Completed Certification in <b>“Practical Machine Learning with Tensorflow”</b> through
 Swayam</li>
-		  </ol>
+      </ol>
 
 
         </div>
 
-       
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
     </section>
-	
+
 <section id="courses" class="courses">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-5">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
           <h2>Courses Taught</h2>
+        </a>
+      </h5>
+    </div>
+       <div id="collapse-5" class="collapse" data-parent="#accordion" aria-labelledby="heading-5">
+      <div class="card-body">
          <b> Handled Subjects: </b><br>
 
 Machine Learning , Artificial Neural Networks, Big Data Analytics, Hadoop and Big Data, Artificial Intelligence Techniques(EEE & MET), Unified Modeling Language, Data Warehousing and Data Mining, Software Engineering and Data Base Management Systems, Programming with R, Python Programming
 <br>
  <b>Handled Labs:  </b><br>
 
-Machine Learning with Python , Statistica, Hadoop & Big Data, R, Python, Data Mining Lab ( Weka Tool and R ) ,UML & DP Lab (IBM Rational Software Architecture),Database Management Systems Lab, Big Data & Hadoop Lab , IT Workshop. 
+Machine Learning with Python , Statistica, Hadoop & Big Data, R, Python, Data Mining Lab ( Weka Tool and R ) ,UML & DP Lab (IBM Rational Software Architecture),Database Management Systems Lab, Big Data & Hadoop Lab , IT Workshop.
         </div>
+      </div>
+    </div>
+  </div>
 
-       
-    </section>
+</div>
+  </section>
+
+<!-- ======= Area of Interests Section ======= -->
+    <section id="Experience" class="Experience">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-6">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-6" aria-expanded="false" aria-controls="collapse-6">
+          <h2>Area of Interests</h2><br>
+        </a>
+      </h5>
+    </div>
+          <div id="collapse-6" class="collapse" data-parent="#accordion" aria-labelledby="heading-6">
+      <div class="card-body">
+        <p> Data Science and Health care Analytics and Decision Sciences.</p>
+
+      </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+    </section><!-- End Area of Interests Section -->
 
 
 <section id="books" class="books">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Book Chapters Published</h2>
-         
-Suragala, Ashok and PapaRao A. V. <b>"Demystifying Disease Identification and Diagnosis Using Machine Learning Classification Algorithms"</b>: Handbook of Research on Emerging Trends and Applications of Machine Learning,  IGI Global, 2020, pp. 200-249. http://doi:10.4018/978-1-5225-9643-1.ch011 
+        <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-7">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-7" aria-expanded="false" aria-controls="collapse-7">
+           <h2>Book Chapters Published</h2>
+        </a>
+      </h5>
+    </div>
+
+         <div id="collapse-7" class="collapse" data-parent="#accordion" aria-labelledby="heading-7">
+      <div class="card-body">
+        Suragala, Ashok and PapaRao A. V. <b>"Demystifying Disease Identification and Diagnosis Using Machine Learning Classification Algorithms"</b>: Handbook of Research on Emerging Trends and Applications of Machine Learning,  IGI Global, 2020, pp. 200-249. http://doi:10.4018/978-1-5225-9643-1.ch011
         </div>
 
-       
+      </div>
+    </div>
+  </div>
+
+</div>
     </section>
 
 <section id="resource_person" class="resource_person">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-8">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-8" aria-expanded="false" aria-controls="collapse-8">
           <h2>Resource Person</h2>
-		  <p style="text-align:left;">
-		 1. Deliver a Guest lectures on “Machine Learning ”
+        </a>
+      </h5>
+    </div>
+      <div id="collapse-8" class="collapse" data-parent="#accordion" aria-labelledby="heading-8">
+      <div class="card-body">
+         <p style="text-align:left;">
+     1. Deliver a Guest lectures on “Machine Learning ”
  at Sai Ganapathi Engineering College on 15
 th FEB 2020 and 22nd FEB 2020.<br>
 2. Deliver a Guest lecture on “Big Data Analytics and it’s Applications”
@@ -216,48 +353,105 @@ rd OCT 2019.<br>
  “On Summer Computing Camp” for Government School Students from
  24th April 2017- 05th May 2017.<br>
 
-		  </p>
-        </div> 
+      </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
-	
+
 <section id="projects" class="projects">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-9">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-9" aria-expanded="false" aria-controls="collapse-9">
           <h2>Projects</h2>
-		<ul style="text-align:left;">
+        </a>
+      </h5>
+    </div>
+
+          <div id="collapse-9" class="collapse" data-parent="#accordion" aria-labelledby="heading-9">
+      <div class="card-body">
+          <ul style="text-align:left;">
 <li>Regression and Classification Analysis on Clinical Diseases.</li>
 <li>Multiple Logistic Regression modeling for predicting Survival of ICU Patient.</li>
 <li>Twitter Data Classification using Text Mining Techniques.</li>
 <li>Building Personalized Recommendation System for Movies, Songs and Products.</li>
 <li>Building <b>"Using Feature Engineering to Predict NYC Taxi Trips"</b>.</li>
 <li>Sentiment Classification on Hotel Reviews using Text Mining Techniques.</li>
-		</ul>
-		</div> 
+    </ul>
+    </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
 
 <section id="skills" class="skills">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-10">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-10" aria-expanded="false" aria-controls="collapse-10">
           <h2>Technical skills</h2>
-		<p "text-align:left;">
-		<b>PROFESSIONAL COURSES (MOOCS):</b>
-1. Applied Data Science from IIT BOMBAY.
-2. Advanced Business Analytics and Data Mining Modeling Using R-II from IIT
- Kanpur.
-3. Data Science for Executives (Columbia University) 
-		</p>
-		</div> 
+        </a>
+      </h5>
+    </div>
+     <div id="collapse-10" class="collapse" data-parent="#accordion" aria-labelledby="heading-10">
+      <div class="card-body">
+        <p style="text-align:left;">
+    <b>PROFESSIONAL COURSES (MOOCS):</b>
+     1. Applied Data Science from IIT BOMBAY.<br>
+     2. Advanced Business Analytics and Data Mining Modeling Using R-II from IIT
+      Kanpur.<br>
+     3. Data Science for Executives (Columbia University) <br>
+     <b>PROGRAMMING LANGUAGES:</b>
+     GraphLab, R, STATISTACA, PIG, HIVE, HADOOP, OOP through C++, Core
+     Java,Numpy and Pandas,Python ,Theano,H2O
+    </p>
+    </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
     </section>
-	
+
 <section id="fdp" class="fdp">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+         <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-11">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-11" aria-expanded="false" aria-controls="collapse-11">
           <h2>Faculty Development Programmes (FDP)</h2>
-		<ul style="text-align:left;">
-		<li>Participated in One week FDP on <b>“Artificial Neural Networks and Deep
+        </a>
+      </h5>
+    </div>
+
+          <div id="collapse-11" class="collapse" data-parent="#accordion" aria-labelledby="heading-11">
+      <div class="card-body">
+        <ul style="text-align:left;">
+    <li>Participated in One week FDP on <b>“Artificial Neural Networks and Deep
  Learning “</b>organized by NIT (W) and MVGR College of Engineering (A) on
  03rd -08th JUNE 2019.</li>
 <li>Participated in One-Day Workshop on <b>“Empowering Teaching
@@ -265,17 +459,34 @@ rd OCT 2019.<br>
  Kakinada on 08th July 2017.</li>
 <li>Participated in One week FDP on ><b>“BUSINESS ANALYTICS WITH
  R”</b> conducted by NIT Warangal in SEP 2016.</li>
-		</ul>
-		</div>   
+    </ul>
+    </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
 
 <section id="journal" class="journal">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-12">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-12" aria-expanded="false" aria-controls="collapse-12">
           <h2>Journals / Conferences Publications</h2>
-     <ul style="text-align: left;">
-	<li><b>"DEMYSTIFYING DISEASE IDENTIFICATION AND DIAGNOSIS
+        </a>
+      </h5>
+    </div>
+          <div id="collapse-12" class="collapse" data-parent="#accordion" aria-labelledby="heading-12">
+      <div class="card-body">
+        <ul style="text-align: left;">
+  <li><b>"DEMYSTIFYING DISEASE IDENTIFICATION AND DIAGNOSIS
 USING MACHINE LEARNING CLASSIFICATION ALGORITHMS"</b> at
 7th International Conference on Business Analytics and Intelligence
 at IIM-Bangalore.</li>
@@ -303,16 +514,34 @@ at IIM-Bangalore.</li>
 <li>Presenting a paper on <b>"CLOUD COMPUTING”</b> and secure a first
  prize in National level Technical Symposium in FEB 2012 held at
  University College of engineering, JNTUK-Vizianagaram.</li>
-	</ul>
-        </div>    
+  </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
 
 <section id="Workshops" class="Workshops">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Workshops Organized</h2>
-         <ul style="text-align: left;">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-13">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-13" aria-expanded="false" aria-controls="collapse-13">
+          <h2>Workshops Organized and participated</h2>
+        </a>
+      </h5>
+    </div>
+
+          <div id="collapse-13" class="collapse" data-parent="#accordion" aria-labelledby="heading-13">
+      <div class="card-body">
+        <ul style="text-align: left;">
           <li>Organizing "One Week workshop on Research Trends in
  Machine Learning (RTML-2017)” organized by Department of IT in
  JNTUK UCEV Vizianagaram form 09th-11th OCT 2017 and 16th -18th NOV 2017.</li>
@@ -364,17 +593,23 @@ at IIM-Bangalore.</li>
 -31st January 2018.</li>
 <li>Participated in Three Day National Level Workshop on “Innovations and
  Design Thinking (WIDTH-2019) during 18-20 March-2019” organized by
- Institute of Innovation Council, JNTUK, AP, India.</li> 
+ Institute of Innovation Council, JNTUK, AP, India.</li>
          </ul>
-        </div>   
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
-	
+
 
 
   </main><!-- End #main -->
 
 
-  <?php 
+  <?php
   include '../../footer.php';
   ?>
   <div id="preloader"></div>

@@ -8,7 +8,6 @@
     <?php
     include 'links.php';
     ?>
-
     <title>JNTUK UCEV CSI</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/csi.css">
 </head>
@@ -36,7 +35,7 @@
 
      <br>
      <br>
-  
+
 </div>
      <div class="container">
   <h3 style="color:#006699">List of events Organized by Department of CSE in association with CSI –Student Branch</h3>

@@ -14,10 +14,10 @@
                 <div class="nav-links">
                     <ul>
                         <li class="nav-link" style="--i: .6s">
-                            <a href="index.php">Home</a>
+                            <a href="../../index.php">Home</a>
                         </li>
                         <li class="nav-link" style="--i: 1.35s">
-                            <a href="aboutus.php">About</a>
+                            <a href="../../aboutus.php">About</a>
                         </li>
                         <li class="nav-link" style="--i: .85s">
                             <a href="#" class="nav-drop">Student Corner<i class="fa fa-caret-down"></i></a>
@@ -33,73 +33,73 @@
                             </div>
                         </li>
                       <li class="nav-link" style="--i: 1.35s">
-                            <a href="faculty.php">Faculty</a>
+                            <a href="../../faculty.php">Faculty</a>
                         </li>
 
                         <li class="nav-link" style="--i: .85s">
-                            <a href="#" class="nav-drop">Faculty Achievements<i class="fa fa-caret-down"></i></a>
+                            <a href="#" class="nav-drop">Faculty Achievments<i class="fa fa-caret-down"></i></a>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
-                                <a href="Faculty Achievements 2016-2017.php">Faculty Achievements 2016-2017</a></li>
+                                <a href="../../Faculty Achievements 2016-2017.php">Faculty Achievements 2016-2017</a></li>
                                         <li class="dropdown-link" >
-                                    <a href="Faculty Achievements 2017-2018.php">Faculty Achievements 2017-2018</a></li>
+                                    <a href="../../Faculty Achievements 2017-2018.php">Faculty Achievements 2017-2018</a></li>
                                     <li class="dropdown-link" >
-                                    <a href="Faculty Achievements 2018-2019.php">Faculty Achievements 2018-2019</a></li>
+                                    <a href="../../Faculty Achievements 2018-2019.php">Faculty Achievements 2018-2019</a></li>
                                      <li class="dropdown-link" >
-                                    <a href="Faculty Achievements 2019-2020.php">Faculty Achievements 2019-2020</a></li>
+                                    <a href="../../Faculty Achievements 2019-2020.php">Faculty Achievements 2019-2020</a></li>
                                     <li class="dropdown-link" >
-                                    <a href="Faculty Achievments 2020-2021.php">Faculty Achievements 2020-2021</a></li>
+                                    <a href="../../Faculty Achievments 2020-2021.php">Faculty Achievements 2020-2021</a></li>
                                         </ul>
                                     </div>
                              </li>
                              <li class="nav-link" style="--i: .85s">
-                            <a href="#" class="nav-drop">Student Achievements<i class="fa fa-caret-down"></i></a>
+                            <a href="#" class="nav-drop">Student Achievments<i class="fa fa-caret-down"></i></a>
 
                                         <div class="dropdown">
                                         <ul>
                                           <li class="dropdown-link" >
-                                           <a href="2013-14achievements.php">Student Achievements 2013-2014</a></li>
+                                           <a href="../../2013-14achievements.php">Student Achievements 2013-2014</a></li>
                                            <li class="dropdown-link" >
-                                            <a href="2014-15achievements.php">Student Achievements 2014-2015</a></li>
+                                            <a href="../../2014-15achievements.php">Student Achievements 2014-2015</a></li>
                                             <li class="dropdown-link" >
-                                             <a href="2015-16achievements.php">Student Achievements 2015-2016</a></li>
+                                             <a href="../../2015-16achievements.php">Student Achievements 2015-2016</a></li>
                                              <li class="dropdown-link">
-                                            <a href="2016-17achievements.php">Student Achievements 2016-2017</a></li>
+                                            <a href="../../2016-17achievements.php">Student Achievements 2016-2017</a></li>
                                             <li class="dropdown-link" >
-                                             <a href="2017-18achievements.php">Student Achievements 2017-2018</a></li>
+                                             <a href="../../2017-18achievements.php">Student Achievements 2017-2018</a></li>
                                              <li class="dropdown-link" >
-                                             <a href="2018-19achievements.php">Student Achievements 2018-2019</a></li>
+                                             <a href="../../2018-19achievements.php">Student Achievements 2018-2019</a></li>
                                              <li class="dropdown-link" >
-                                             <a href="2019-20achievements.php">Student Achievements 2019-2020</a></li>
+                                             <a href="../../2019-20achievements.php">Student Achievements 2019-2020</a></li>
                                         </ul>
                                     </div>
 
                             </li>
                             <li class="nav-link" style="--i: 1.35s">
-                                  <a href="mou.php">MOUs</a>
+                                  <a href="../../mou.php">MOUs</a>
                               </li>
                         <li class="nav-link" style="--i: 1.35s">
-                            <a href="magazine.php">Magazines</a>
+                            <a href="../../magazine.php">Magazines</a>
                         </li>
                         <li class="nav-link" style="--i: .85s">
                        <a href="#" class="nav-drop">Placements<i class="fa fa-caret-down"></i></a>
 
-                                   <div class="dropdown">
-                                   <ul>
-                                       <li class="dropdown-link" >
-                                        <a href="placementsreport.php">Placements Reports</a>
+                       <div class="dropdown">
+                       <ul>
+                           <li class="dropdown-link" >
+                            <a href="../../placementsreport.php">Placements Reports</a>
 
-                                                <li class="dropdown-link">
-                                                  <a href="placementstatistics.php">Placememt Statistics </a></li>
-                                                  <li class="dropdown-link" >
-                                                   <a href="recruiters.php">Our Recruiters</a></li>
-                                   </ul>
-                               </div>
+                                    <li class="dropdown-link">
+                                      <a href="../../placementstatistics.php">Placememt Statistics </a></li>
+                                      <li class="dropdown-link" >
+                                       <a href="../../recruiters.php">Our Recruiters</a></li>
+                       </ul>
+                   </div>
 
                        </li>
                         <li class="nav-link" style="--i: 1.35s">
-                            <a href="po's.php">PO's,PEO's,PSO's</a>
+                            <a href="../../po's.php">PO's,PEO's,PSO's</a>
                         </li>
 
 <!--

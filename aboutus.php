@@ -30,13 +30,19 @@
 5)  Well-stocked Department library with e-books and open-source journals.<br>
 6)  CC Cameras Surveillance in Labs and Corridors<br>
           The Auditorium will be used for technical, co-curricular and extracurricular activities. Students are free to use this hall which is equipped with Projector Screen and PA system. Students utilize this and  facility regularly to conduct events as per their academic as well as non-academic needs.<br>
+
+<h4>
+  Department Library
+</h4>
 <br>
-• Personal computers: 03 <br>
-• Number of Books    : 300<br>
-• Project Reports        :  480<br>
-• Lab manuals             : 10<br>
-• Magazines                :  03<br>
-CC cameras, in labs and corridors ensures regular monitoring of the class work and lab sessions. Also ensures safety in the department.
+<i class='fa fa-thumb-tack'></i> Personal computers: 03 <br>
+<i class='fa fa-thumb-tack'></i> Number of Books    : 300<br>
+<i class='fa fa-thumb-tack'></i> Project Reports        :  480<br>
+<i class='fa fa-thumb-tack'></i> Lab manuals             : 10<br>
+<i class='fa fa-thumb-tack'></i> Magazines                :  03<br>
+</p>
+<p>
+<b><i class='fa fa-camera-retro'></i> CC cameras, in labs and corridors ensures regular monitoring of the class work and lab sessions. Also ensures safety in the department.</b>
 </p></div>
 </div>
   </section>
@@ -45,13 +51,13 @@ CC cameras, in labs and corridors ensures regular monitoring of the class work a
           <h2>INFRASTRUCTURE</h2>
 	 <div class="red-border"></div>
           <p class="ct-u-size22 ">The department has ample labs, even beyond curriculum requirements.the students may utilize them for their career prospects. CSE-labs are allotted to the students every week as per the timetable. Apart from the regular labs, a research lab is also available for faculties and students to carry out their research and project work. The maintenance of infrastructure and facilities at the Department is carried out in a timely and thorough manner to ensure maximum availability and minimum downtime of the equipment and services. All the lab facilities and services are made available to the students even after college hours and holidays to enable their maximum utilization and benefit to the students.</p>
-          
+
 <main>
-<div class="rows"> 
+<div class="rows">
   <div class="column">
 <img src="assets/img/ed-tch-tools.jpg" style="width:100%">
-<img src="assets/img/LAB-1.png" style="width:100%"> 
-<img src="assets/img/cse-07.png" style="width:100%"> 
+<img src="assets/img/LAB-1.png" style="width:100%">
+<img src="assets/img/cse-07.png" style="width:100%">
   </div>
   <div class="column">
     <img src="assets/img/cse-09.jpeg" style="width:100%">
@@ -59,14 +65,14 @@ CC cameras, in labs and corridors ensures regular monitoring of the class work a
   </div>
   <div class="column">
     <img src="assets/img/cse-cc.jpeg" style="width:100%">
-    <img src="assets/img/cse-02.jpg" style="width:100%"> 
+    <img src="assets/img/cse-02.jpg" style="width:100%">
 <img src="assets/img/cresence2K20.jpeg" style="width:100%">
   </div>
   <div class="column">
     <img src="assets/img/cse-01.png" style="width:100%">
-<img src="assets/img/IOT-LAB.png" style="width:100%">  
-  </div> 
-</div> 
+<img src="assets/img/IOT-LAB.png" style="width:100%">
+  </div>
+</div>
 </main>
       </div>
   </section>

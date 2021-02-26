@@ -8,15 +8,15 @@
   <title>R.D.D.V SIVARAM profile</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
-  <?php 
+  <?php
   include 'facultylinks.php';
   ?>
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
- 
+
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
- 
+
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
@@ -27,7 +27,7 @@
 <body>
 
   <?php
-  include 'facultyheader.php';
+  include 'nav.php';
   ?>
 
   <main id="main">
@@ -38,7 +38,7 @@
 
         <div class="section-title">
           <h2>R.D.D.V SIVARAM</h2>
-          
+
         </div>
 
         <div class="row">
@@ -51,7 +51,7 @@
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-				  
+
                   <li><i class="icofont-rounded-right"></i><strong>Degree:</strong>B.Tech.,M.Tech., (Ph.D),AU 2006</li>
                   <li><i class="icofont-rounded-right"></i><strong>Subjects:</strong>Wireless Sensor Networks and Internet of Things</li>
                  </div>
@@ -75,7 +75,18 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-1">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
           <h2>Academic/Professional Awards and Recognition</h2>
+        </a>
+      </h5>
+    </div>
+          <div id="collapse-1" class="collapse" data-parent="#accordion" aria-labelledby="heading-1">
+      <div class="card-body">
         </div>
 
         <div class="row counters">
@@ -85,6 +96,12 @@
               <li>Qualified UGC-NET (Lectureship ) twice in the years June 2012  & December 2012</li>
             </ul>
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section><!-- End Academic/Professional Awards and Recognition session -->
 
     <!-- ======= Educational qualification Section ======= -->
@@ -92,8 +109,19 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-2">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
           <h2>Educational qualifications</h2>
-          
+        </a>
+      </h5>
+    </div>
+
+          <div id="collapse-2" class="collapse" data-parent="#accordion" aria-labelledby="heading-2">
+      <div class="card-body">
         </div>
 
         <div class="row skills-content">
@@ -116,6 +144,12 @@
             </ul>
           </ul>
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section><!-- End Educational qualification Section -->
 
     <!-- ======= Professional (Research/Teaching) Experience Section ======= -->
@@ -123,8 +157,19 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-3">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
           <h2>Professional (Research/Teaching) Experience</h2>
-          <h4><ul>ASSISTANT Professor at  UCEV-JNTUK Vizianagaram.</h4>
+        </a>
+      </h5>
+    </div>
+          <div id="collapse-3" class="collapse" data-parent="#accordion" aria-labelledby="heading-3">
+      <div class="card-body">
+        <h4><ul>ASSISTANT Professor at  UCEV-JNTUK Vizianagaram.</h4>
           <li>07-JAN-2013 To till date.</li></ul>
           <h4><ul>ASSISTANT Professor at  GVP College of Engineering for Women, Visakhapatnam. </h4>
           <li>JUN-2010    to   06 –JAN- 2013.</li></ul>
@@ -135,13 +180,32 @@
         <div class="row counters">
 
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section><!-- End Professional (Research/Teaching) Experience Section -->
     <!--======= Administrative Service in this Institutions section-->
     <section id="facts" class="facts">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Administrative Service in this Institutions</h2>             
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-4">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+          <h2>Administrative Service in this Institutions</h2>
+        </a>
+      </h5>
+    </div>
+
+
+          <div id="collapse-4" class="collapse" data-parent="#accordion" aria-labelledby="heading-4">
+      <div class="card-body">
         </div>
         <div class="row counters">
           <ul>
@@ -151,6 +215,12 @@
                <li>Training Placement Officer from Dec 2019 to till date.</li>
              </ul>
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section><!-- End Administrative Service in this Institutions Section -->
 
 <!--======= Research Interests-->
@@ -158,17 +228,34 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2><ul>Research Interests</h2>
-              
-        </div>
+          <div id="accordion">
 
+  <div class="card">
+    <div class="card-header" id="heading-5">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
+          <h2>Research Interests</h2>
+        </a>
+      </h5>
+    </div>
+          <div id="collapse-5" class="collapse" data-parent="#accordion" aria-labelledby="heading-5">
+      <div class="card-body">
         <div class="row counters">
           <ul>
               <li>Computer Vision</li>
               <li>IoT</li>
               <li>AI & Deep Learning</li></ul>
-         </ul>     
+         </ul>
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+        </div>
+
+
     </section><!-- End Research Interests-->
 
        <!--======= Details of Courses Taught session-->
@@ -176,15 +263,26 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2><ul>Details of Courses Taught</h2>
-            
-        </div>
+          <div id="accordion">
 
+  <div class="card">
+    <div class="card-header" id="heading-6">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-6" aria-expanded="false" aria-controls="collapse-6">
+          <h2><ul>Details of Courses Taught</h2>
+        </a>
+      </h5>
+    </div>
+
+
+        </div>
+        <div id="collapse-6" class="collapse" data-parent="#accordion" aria-labelledby="heading-6">
+      <div class="card-body">
         <div class="row counters">
             <li>Formal Languages & Automata Theory.
             <li>Compilers Design.</li>
             <li>Computer Programming.</li>
-            <li>Object-Oriented Programming Through C++.</li> 
+            <li>Object-Oriented Programming Through C++.</li>
             <li>Unix Network Programming.</li>
             <li>Advanced Unix Programming.</li>
             <li>Data Structures.</li>
@@ -205,6 +303,13 @@
             <li>Semantic Web</li>
             <li>Live Data Analytics  using Open tools</li></ul>
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
     </section><!--End Details of Courses Taught session -->
 
      <!--======= Workshops/Conferences Organized-->
@@ -212,10 +317,21 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2><ul>Workshops/Conferences Organized</h2>
-          
-        </div>
+          <div id="accordion">
 
+  <div class="card">
+    <div class="card-header" id="heading-7">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-7" aria-expanded="false" aria-controls="collapse-7">
+          <h2><ul>Workshops/Conferences Organized</h2>
+        </a>
+      </h5>
+    </div>
+
+
+        </div>
+        <div id="collapse-7" class="collapse" data-parent="#accordion" aria-labelledby="heading-7">
+      <div class="card-body">
         <div class="row counters">
           <ol>
            <li>Delivered a talk on “Kaa open-source IoT platform” at a two-day national workshop on “fog computing and IoT” held at          UCEV- JNTUK, on  29/03/2016.</li>
@@ -224,6 +340,13 @@
            <li>Delivered a guest lecture on the “Arduino platform” at Sree Vidyanikethan college of engineering  Tirupathi, on 16-09-2016.</li>
          </ol>
         </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
     </section><!-- End Workshops/Conferences Organized -->
 
     <!--======= Invited talks in Workshops and Conferences-->
@@ -231,10 +354,20 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Invited talks in Workshops and Conferences</h2>
-          
-        </div>
+          <div id="accordion">
 
+  <div class="card">
+    <div class="card-header" id="heading-8">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-8" aria-expanded="false" aria-controls="collapse-8">
+          <h2>Invited talks in Workshops and Conferences</h2>
+        </a>
+      </h5>
+    </div>
+
+        </div>
+        <div id="collapse-8" class="collapse" data-parent="#accordion" aria-labelledby="heading-8">
+      <div class="card-body">
         <div class="row counters">
          <ol>
         <li>One week workshop on “Research Challenges and issues in Big data and Cloud Computing” on 27th to 31st January 2015 held at UCEV_JNTUK.</li>
@@ -260,6 +393,12 @@
         <li>Attended “ A Two-day national workshop on “Image Processing & Security Technologies“ by Dept of  IT, UCEV – JNTUK.during 23rd  & 24th January 2015.</li>
         </ol>
         </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section><!-- End Invited talks in Workshops and Conferences -->
 
     <!-- ======= Conference Publications and proceedings ======= -->
@@ -267,8 +406,19 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Conference Publications and proceedings</h2>
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-9">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-9" aria-expanded="false" aria-controls="collapse-9">
+           <h2>Conference Publications and proceedings</h2>
+        </a>
+      </h5>
+    </div>
         </div>
+        <div id="collapse-9" class="collapse" data-parent="#accordion" aria-labelledby="heading-9">
+      <div class="card-body">
         <div class="row counters">
           <ol>
            <li>Published a paper Titled” A framework using Semantic web for web-based learning system” on the International Journal of Research in Advanced Computer Science  Engineering, Volume No:1, issue No:11(April-2016).</li>
@@ -276,12 +426,18 @@
            </ol>
         </div>
 
-       
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
     </section><!-- End Conference Publications and proceedings -->
 
   </main><!-- End #main -->
 
-  <?php 
+  <?php
   include '../../footer.php';
   ?>
 

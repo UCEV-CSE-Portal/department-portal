@@ -6,21 +6,21 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title> 
+  <title>
 V .Laxmi Prasad profile</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
- <?php 
+ <?php
   include 'facultylinks.php';
   ?>
 
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
- 
+
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
- 
+
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
@@ -32,7 +32,7 @@ V .Laxmi Prasad profile</title>
 
 
   <?php
-  include 'facultyheader.php';
+  include 'nav.php';
   ?>
 
   <main id="main">
@@ -43,7 +43,7 @@ V .Laxmi Prasad profile</title>
 
         <div class="section-title">
           <h2>V .Laxmi Prasad</h2>
-          
+
         </div>
 
         <div class="row">
@@ -52,7 +52,7 @@ V .Laxmi Prasad profile</title>
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Assistant Professor</h3>
-          
+
             <div class="row">
               <div class="col-lg-6">
                 <ul>
@@ -60,12 +60,12 @@ V .Laxmi Prasad profile</title>
 				  <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> M.Tech</li>
 				  <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> v.laxmiprasad@gmail.com </li>
 				  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> 8978252737 </li>
-                  
+
                 </ul>
               </div>
-              
+
             </div>
-            
+
           </div>
         </div>
 
@@ -77,13 +77,31 @@ V .Laxmi Prasad profile</title>
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-1">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
           <h2>Educational Qualifications</h2>
-          <ul style="text-align: left;">
-		   <li>M.Tech from GMRIT with an aggregate of 71.9&.</li>
+        </a>
+      </h5>
+    </div>
+        <div id="collapse-1" class="collapse" data-parent="#accordion" aria-labelledby="heading-1">
+      <div class="card-body">
+         <ul style="text-align: left;">
+       <li>M.Tech from GMRIT with an aggregate of 71.9&.</li>
            <li>B.Tech in the stream of Computer Science and Engineering from  A.I.T.A.M[Autonomous] </li>
-		   
+
           </ul>
         </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
 
     </section><!-- End Skills Section -->
 
@@ -92,50 +110,141 @@ V .Laxmi Prasad profile</title>
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-2">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
           <h2>Professional Experience</h2><br>
-		<ul style="text-align:left;">
-		<li>I have been working as an Assistant Professor (Contract) in JNTU-VIZIANAGARAM since June 5, 2015.I dealt the subject of ADS, DBMS, CN and MC.</li>
-		<li>I was worked as a Teaching Assistant in JNTU-VIZIANAGARAM from Feb 25, 2015 to May 22, 2015.</li>
-		<li>I was worked as an Assistant Professor in SARADA INSTITUTE OF SCIENCE, TECHNOLOGY AND MANAGEMENT since May 18, 2014.I dealt the subject of UML&DP, PPL, DS and ADS.</li>
-		<li>I was worked as a Guest faculty in GOKUL INSTITUTE OF TECHNOLOGY AND SCIENCES from December 12, 2012 to May 10, 2014. I dealt the subject of CGs, SPM, PPL, and MFCS.</li> 
-		</ul>
+        </a>
+      </h5>
+    </div>
+      <div id="collapse-2" class="collapse" data-parent="#accordion" aria-labelledby="heading-2">
+      <div class="card-body">
+       <ul style="text-align:left;">
+    <li>I have been working as an Assistant Professor (Contract) in JNTU-VIZIANAGARAM since June 5, 2015.I dealt the subject of ADS, DBMS, CN and MC.</li>
+    <li>I was worked as a Teaching Assistant in JNTU-VIZIANAGARAM from Feb 25, 2015 to May 22, 2015.</li>
+    <li>I was worked as an Assistant Professor in SARADA INSTITUTE OF SCIENCE, TECHNOLOGY AND MANAGEMENT since May 18, 2014.I dealt the subject of UML&DP, PPL, DS and ADS.</li>
+    <li>I was worked as a Guest faculty in GOKUL INSTITUTE OF TECHNOLOGY AND SCIENCES from December 12, 2012 to May 10, 2014. I dealt the subject of CGs, SPM, PPL, and MFCS.</li>
+    </ul>
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section><!-- End Facts Section -->
 
-	
+
 <section id="courses" class="courses">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-3">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
           <h2>Courses Taught</h2>
-         <b> Handled Subjects: </b>
-		 <br>Network Programming, Data Structures, Advanced data structures,Computer Graphics, DataBase Management,Computer Networks<br>
+        </a>
+      </h5>
+    </div>
+
+         <div id="collapse-3" class="collapse" data-parent="#accordion" aria-labelledby="heading-3">
+      <div class="card-body">
+        <b> Handled Subjects: </b>
+     <br>Network Programming, Data Structures, Advanced data structures,Computer Graphics, DataBase Management,Computer Networks<br>
  <b>Handled Labs:  </b>
  <br>C-Programming Lab, Data Structures Lab, Advanced data Structures Lab,  Operating systems Lab, DBMS Lab, Python Lab, C++ Lab,  IT Workshop, UML and DP Lab <br>
- 
+
  </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
-	
-	
+	<!-- ======= Area of Interests Section ======= -->
+    <section id="Experience" class="Experience">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-4">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
+          <h2>Area of Interests</h2><br>
+        </a>
+      </h5>
+    </div>
+          <div id="collapse-5" class="collapse" data-parent="#accordion" aria-labelledby="heading-5">
+      <div class="card-body">
+        <p> Database Management System,Computer Networks,Network Programming,Computer Graphics</p>
+
+      </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+    </section><!-- End Area of Interests Section -->
+
+
 <section id="skills" class="skills">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+<div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-6">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-6" aria-expanded="false" aria-controls="collapse-6">
           <h2>Technical skills</h2>
-         <p>
-		  Languages   : C, C++, Java <br>
-		  Database   : SQL, ORACLE <br>
-		  Operating System  : Windows 2000, MS-DOS, LINUX<br> </p>
+        </a>
+      </h5>
+    </div>
+
+          <div id="collapse-6" class="collapse" data-parent="#accordion" aria-labelledby="heading-6">
+      <div class="card-body">
+        <p>
+      Languages   : C, C++, Java <br>
+      Database   : SQL, ORACLE <br>
+      Operating System  : Windows 2000, MS-DOS, LINUX<br> </p>
  </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
-	
+
 
 <section id="Workshops" class="Workshops">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-7">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-7" aria-expanded="false" aria-controls="collapse-7">
           <h2>Workshops Organized</h2>
-         <ul style="text-align: left;">
+        </a>
+      </h5>
+    </div>
+          <div id="collapse-7" class="collapse" data-parent="#accordion" aria-labelledby="heading-7">
+      <div class="card-body">
+        <ul style="text-align: left;">
           <li>
             Organizing committee member for a Two-Day \"National Workshop on “Pattern Recognition and its Application”, during 19th and 20th March, 2014 organized by Dept. of Information Technology, JNTUK-University College of Engineering Vizianagaram.
 </li><li>Organizing Member for a Two-Day “National Conference on Emerging Technologies in Computer Science 2014(NCETCS’14)”, held during 28th and29th March, 2014 organized by Dept. of Computer Science and Engineering, JNTUK-University College of Engineering Vizianagaram.
@@ -152,15 +261,21 @@ V .Laxmi Prasad profile</title>
           </li>
 
          </ul>
-        </div>   
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
-	
+
 
 
   </main><!-- End #main -->
 
 
-  <?php 
+  <?php
   include '../../footer.php';
   ?>
 

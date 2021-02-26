@@ -10,16 +10,16 @@
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
-  <?php 
+  <?php
   include 'facultylinks.php';
   ?>
 
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
- 
+
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
- 
+
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
@@ -31,9 +31,9 @@
 
 
   <?php
-  include 'facultyheader.php';
+  include 'nav.php';
   ?>
-  
+
   <main id="main">
 
     <!-- ======= About Section ======= -->
@@ -42,7 +42,7 @@
 
         <div class="section-title">
           <h2 style="color:blue;">Dr. A S N CHAKRAVARTHY</h2>
-          
+
         </div>
 
         <div class="row">
@@ -52,7 +52,7 @@
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Professor & HOD</h3>
             <p class="font-italic">
-             
+
             </p>
             <div class="row">
               <div class="col-lg-6">
@@ -61,19 +61,19 @@
                   <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> chakravarthy.cse@jntukucev.ac.in</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> 9618719229</li>
 				  <li><i class="icofont-rounded-right"></i> <strong> Nationality:</strong> Indian</li>
-                  
+
                 </ul>
               </div>
-              
-              
+
+
             </div>
 			<h5><b>Message</b></h5>
-              <p>I am a loyal, talented and caring faculty member who loves making a difference in the lives of young students. I have 18+ years of Teaching experience and 12 years of Academic Research experience.  I have taught and nurtured more than 5000+ students from all backgrounds, successfully preparing them for the next stages of their professional lives. 
+              <p>I am a loyal, talented and caring faculty member who loves making a difference in the lives of young students. I have 18+ years of Teaching experience and 12 years of Academic Research experience.  I have taught and nurtured more than 5000+ students from all backgrounds, successfully preparing them for the next stages of their professional lives.
 
 I am currently looking for an opportunity to utilize my Teaching Experience, Reserach experience and Technical Skills in a challenging working environment and become a valuable asset to the organisation that I work for. </p>
-            
+
           </div>
-		  
+
         </div>
 
       </div>
@@ -83,9 +83,19 @@ I am currently looking for an opportunity to utilize my Teaching Experience, Res
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+         <div id="accordion">
 
+  <div class="card">
+    <div class="card-header" id="heading-1">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
           <h2>Education Qualifications</h2>
-          <ul style="text-align: left;">
+        </a>
+      </h5>
+    </div>
+          <div id="collapse-1" class="collapse" data-parent="#accordion" aria-labelledby="heading-1">
+      <div class="card-body">
+       <ul style="text-align: left;">
             <li>
               <b>PhD in Computer Science and Engineering </b><br>
 
@@ -94,7 +104,7 @@ I am currently looking for an opportunity to utilize my Teaching Experience, Res
 Acharya Nagarjuna University, Guntur, India<br>
             </li>
            <li>
-            <b>M.Tech in Computer Science</b><br> 
+            <b>M.Tech in Computer Science</b><br>
 
 (Dissertation: A New Approach for Scheduling Task Graphs on Heterogeneous Computing)<br>
 
@@ -114,6 +124,12 @@ Bangalore University, Bangalore, India<br>
         <div class="row skills-content">
 
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
 
 
@@ -122,18 +138,31 @@ Bangalore University, Bangalore, India<br>
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+
+
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-2">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
           <h2>Academic/Professional Awards and Recognition</h2>
-          <ul type="square" style="text-align: left;">
+        </a>
+      </h5>
+    </div>
+          <div id="collapse-2" class="collapse" data-parent="#accordion" aria-labelledby="heading-2">
+      <div class="card-body">
+        <ul type="square" style="text-align: left;">
             <li>
             Received Association of Scientists, Developers and Faculties “Best Professor” award from Shri. VirendraKataria, Lt. Governor of Pondicherry, at Global Awards 2013 held on 30-12-2013 atHotel Anandha Inn, Puducherry, India.</li><br>
- 
+
 <li>
 Received Association of Scientists, Developers and Faculties “Best Academic Researcher” Award from Audi Kalayanamitr, President, board of director at one development company, Bangkok at Global Awards 2014 held on 30-12-2014at Hotel Holiday Inn Silom, Bangkok, Thailand.</li><br>
- 
+
 <li>
 Received Association of Scientists, Developers and Faculties “Best Computer Science Faculty” award from Shri. Rajavelu,(Minister for tourism) and T. Thiagarajan(Minister for Electricity, & School Education, at Global Awards 2015 held on 30-12-2015 at Hotel Shenbaga, Pondicherry, India.</li>
 <br>
- 
+
 <li>
 Received “Uttam Acharya (Best Faculty)” award during the National Award Presentation Ceremony  held on 02-10- 2019 at VR Siddartha Engineering College, Vijayawada, India. Award was conferred by Indian Servers in association with Lions Club International, Telangana IT Association and Information Technology Companies Association of Andhra Pradesh.</li></ul>
 <br><br>
@@ -155,6 +184,12 @@ Received “Uttam Acharya (Best Faculty)” award during the National Award Pres
         <div class="row skills-content">
 
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section><!-- End Skills Section -->
 
     <!-- ======= Facts Section ======= -->
@@ -162,8 +197,20 @@ Received “Uttam Acharya (Best Faculty)” award during the National Award Pres
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Professional (Research/Teaching) Experience</h2>
-          <ul style="text-align: left">
+
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-3">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+        <h2>Professional (Research/Teaching) Experience</h2>
+        </a>
+      </h5>
+    </div>
+    <div id="collapse-3" class="collapse" data-parent="#accordion" aria-labelledby="heading-3">
+      <div class="card-body">
+        <ul style="text-align: left">
           <li>18+ Years of teaching experience.</li><br>
 <li>12 + Years of  Acadeic Research Experience.</li><br>
 <li>Presently Supervising Ten Students at  JNUK-Kakinada</li>
@@ -174,6 +221,12 @@ Received “Uttam Acharya (Best Faculty)” award during the National Award Pres
         <div class="row counters">
 
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section><!-- End Facts Section -->
 
 
@@ -181,14 +234,32 @@ Received “Uttam Acharya (Best Faculty)” award during the National Award Pres
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Research Interests</h2>
-          <p>Computer Networks, Steganography, Watermarking, Data Security, Password Authentication, Biometrics, Cyber Security, Cloud Privacy,IOT Security and Digital Forensics</p><br>
+
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-4">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+        <h2>Research Interests</h2>
+        </a>
+      </h5>
+    </div>
+          <div id="collapse-4" class="collapse" data-parent="#accordion" aria-labelledby="heading-4">
+      <div class="card-body">
+        <p>Computer Networks, Steganography, Watermarking, Data Security, Password Authentication, Biometrics, Cyber Security, Cloud Privacy,IOT Security and Digital Forensics</p><br>
 
         </div>
 
         <div class="row counters">
 
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
 
 
@@ -196,9 +267,27 @@ Received “Uttam Acharya (Best Faculty)” award during the National Award Pres
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-5">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
           <h2>Details of Courses Taught</h2>
-<p>C & Data Structures, Design & Analysis of Algorithms, Operating Systems & System Programming, Advanced Computer Architecture, Distributed Systems, Artificial Intelligence, Computer Organization, Software Engineering, Data Mining and Data Ware Housing, Computer Communications, Human Computer Interaction, Network Security & Cryptography, Advanced Computer Networks, Computer Forensics, E-Commerce, Advanced Operating Systems, Cyber Crime Investigations and Digital Forensics, Operating Systems Administration and Security</p>
+        </a>
+      </h5>
+    </div>
+    <div id="collapse-5" class="collapse" data-parent="#accordion" aria-labelledby="heading-5">
+      <div class="card-body">
+        <p>C & Data Structures, Design & Analysis of Algorithms, Operating Systems & System Programming, Advanced Computer Architecture, Distributed Systems, Artificial Intelligence, Computer Organization, Software Engineering, Data Mining and Data Ware Housing, Computer Communications, Human Computer Interaction, Network Security & Cryptography, Advanced Computer Networks, Computer Forensics, E-Commerce, Advanced Operating Systems, Cyber Crime Investigations and Digital Forensics, Operating Systems Administration and Security</p>
         </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
 
 
@@ -206,10 +295,22 @@ Received “Uttam Acharya (Best Faculty)” award during the National Award Pres
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Books Edited/ Authored</h2>
-<ul style="text-align: left;">
+
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-6">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-6" aria-expanded="false" aria-controls="collapse-6">
+        <h2>Books Edited/ Authored</h2>
+        </a>
+      </h5>
+    </div>
+          <div id="collapse-6" class="collapse" data-parent="#accordion" aria-labelledby="heading-6">
+      <div class="card-body">
+        <ul style="text-align: left;">
   <li>“Password Authentication Using Associative Memories -A Probabilistic Approach”, Lap Lambert Academic Publishing, Germany, 2012, ISBN: 978-3-659-26797-0.</li><br><li>
- 
+
 
 “Crypto Authentication Using Hilbert Matrices-A Novel Approach”, Lap Lambert Academic Publishing, Germany, 2014, ISBN: 978-3-8473-4755-2.
  </li><br>
@@ -218,6 +319,12 @@ Received “Uttam Acharya (Best Faculty)” award during the National Award Pres
   </li>
 </ul>
         </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
 
     </section>
 
@@ -226,8 +333,19 @@ Received “Uttam Acharya (Best Faculty)” award during the National Award Pres
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-7">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-7" aria-expanded="false" aria-controls="collapse-7">
           <h2>MEMBERSHIPS</h2>
-<ul type="square" style="text-align: left;">
+        </a>
+      </h5>
+    </div>
+       <div id="collapse-7" class="collapse" data-parent="#accordion" aria-labelledby="heading-7">
+      <div class="card-body">
+        <ul type="square" style="text-align: left;">
   <li>Senior Member of “IEEE” with membership id 92932156.
 </li><br><li>Professional Member of “A C M” with membership id 7001281.
 </li><br><li>Life Member of “Computer Society of India (CSI)” with membership id I0171314.
@@ -261,6 +379,12 @@ Received “Uttam Acharya (Best Faculty)” award during the National Award Pres
         <div class="row counters">
 
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
 
     <!-- ======= Testimonials Section ======= -->
@@ -268,8 +392,20 @@ Received “Uttam Acharya (Best Faculty)” award during the National Award Pres
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-8">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-8" aria-expanded="false" aria-controls="collapse-8">
           <h2>Administrative Service</h2>
-<ul type="square" style="text-align: left;">
+        </a>
+      </h5>
+    </div>
+
+          <div id="collapse-8" class="collapse" data-parent="#accordion" aria-labelledby="heading-8">
+      <div class="card-body">
+        <ul type="square" style="text-align: left;">
 <li>Alumni Association Coordinator 2014-15</li><br>
 <li>CSI- Student Branch Coordinator at JNTUK University College of Engineering, Vizianagaram 2014-2020</li><br>
 <li>Head of the Department-CSE Dec 2018- Till date</li><br>
@@ -296,7 +432,7 @@ Received “Uttam Acharya (Best Faculty)” award during the National Award Pres
 <li>Designed a MOOCs Brochure for the University (first of its kind) and got the appreciation.</li><br>
 <li>Day to day Coordination and Technical support to all the Participant Colleges.</li><br>
 <br>
- 
+
 
 <b>As Digital Monitoring Cell  (DMC)  Coordinator:</b><br>
 
@@ -312,7 +448,13 @@ Received “Uttam Acharya (Best Faculty)” award during the National Award Pres
 <li>Interacted with different government organizations (like NKN, NIC, IRINN, NMEICT, INFLIBNET, UIDAI, NIELIT, UGC, SWAYAM, APSCHE etc.) for Internet, ABAS, DNS/Mail etc.</li><br>
 
 </ul>
-        </div>       
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section><!-- End Testimonials Section -->
 
 
@@ -325,8 +467,20 @@ Received “Uttam Acharya (Best Faculty)” award during the National Award Pres
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-9">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-9" aria-expanded="false" aria-controls="collapse-9">
           <h2>Workshops/Conferences Organized</h2>
-      <ul style="text-align: left;">
+        </a>
+      </h5>
+    </div>
+    <div id="collapse-9" class="collapse" data-parent="#accordion" aria-labelledby="heading-9">
+      <div class="card-body">
+        <ul style="text-align: left;">
     <li>    Co-Coordinator for a Two-Day \"National Workshop on  Recent Research Trends In Computer Science And Information Technology”, during 21st and 22nd June, 2013 organized by  of Computer Science & Engineering and Information Technology, JNTUK-University College of Engineering Vizianagaram.
  </li><br><li>
 
@@ -343,7 +497,7 @@ Coordinator for a one day workshop on “PHP& MYSQL”, held on 13th December, 2
  </li><br><li>
 
 Organizing committee member for one week National Workshop on “Research     Challenges in Big Data & Cloud Computing”, during 27th-31st January, 2015 organized by    Computer Science & Engineering, JNTUK-University College of Engineering Vizianagaram.
- 
+
 </li><br><li>
 Coordinator for “Awareness Programme on MOOCs” on 29th July 2015, at JNTUK, Kakinada.
  </li><br><li>
@@ -358,13 +512,13 @@ Coordinator for a \\\"Five Day National Level Faculty Development Programme on I
  </li><br><li>
 
 Coordinator for a Two Day National Level “Workshop on Learning Management Systems & Ed-Tech Tools” held during 22-23 December 2017, Organized by Digital Monitoring Cell, JNTUK, Kakinada -533003, Andhra Pradesh, India.
- 
+
 </li><br><li>
 Convener for One day \\\"Workshop on EdTech Tools in Teaching Learning\\\" (WETTL) on 05th  October 2019 (Saturday) at AB-II Auditorium, JNTUK UCEV, Vizianagaram, India.
- 
+
 </li><br><li>
 Convener for a Seminar on “ Career in AI” by Blackbuck Centers of Excellence (CoE ) in AI,ML and Data Science will ace their career on  02 June 2020.
- 
+
 </li><br><li>
 Convener for a “One Week Faculty Development Program on Cyber Security”, held from 11th  to 16th  June 2020 (02:00 PM to 04:00 PM), in association with UCEV CSI Student Branch (Region-V) and Supraja Technologies.
  </li><br><li>
@@ -376,7 +530,7 @@ Convener for “One Week Online Workshop on Blended Learning” in association w
  </li><br><li>
 
 Convener for a webinar on “Cyber Physical Systems” in association with Computer Society of India (UCEV Student Branch) on 08th August 2020.
- 
+
 </li><br><li>
 Convener for a online “Technical Quiz” for UG students in association with Computer Society of India (UCEV Student Branch) on 12th August 2020.
  </li><br><li>
@@ -384,7 +538,13 @@ Convener for a online “Technical Quiz” for UG students in association with C
 Convener for a webinar on “Innovation through Design Thinking” in association with Swecha Learning Center on 22nd August 2020.
         </li></ul></div>
 
-        
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
 
 
@@ -393,8 +553,20 @@ Convener for a webinar on “Innovation through Design Thinking” in associatio
 
         <div class="section-title">
 
+
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-10">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-10" aria-expanded="false" aria-controls="collapse-10">
           <h2>Conference Publications and proceedings</h2>
-          <table class="table table-striped table-hover table-responsive table-bordered">
+        </a>
+      </h5>
+    </div>
+          <div id="collapse-10" class="collapse" data-parent="#accordion" aria-labelledby="heading-10">
+      <div class="card-body">
+         <table class="table table-striped table-hover table-responsive table-bordered">
   <thead>
     <tr>
       <th scope="col">S.No</th>
@@ -418,55 +590,55 @@ Convener for a webinar on “Innovation through Design Thinking” in associatio
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td>  
+      <td>
 Evaluating the Effectiveness of Personalized Web Search</td>
       <td>AICTE Sponsored National Conference on - High Performance Computing and Networking,13th-14th August 2011, Rajampet, Andhra Pradesh, India.</td>
       <td>National</td>
     </tr>
-  
+
   <tr>
       <th scope="row">4</th>
-      <td>  
+      <td>
 Password Authentication using Context-Sensitive Associative Memory Neural Networks: A Novel Approach</td>
       <td>Proceedings of Springer Lecture Notes of the LNICST-85 Series, part-II, pp. 464–478 at the CCSIT 2012, in January 2012 held at Bangalore, India.</td>
       <td>International</td>
     </tr>
   <tr>
       <th scope="row">5</th>
-      <td>  
+      <td>
 Protocol Sensor Based Embedded Technique for Efficient Water-Saving Agriculture</td>
       <td>Proceedings of ACNCN2012 conference on advances in communication, navigation and computer networks 17th -18th March, 2012, A.U, Visakhapatnam.</td>
       <td>National</td>
-    </tr>  
+    </tr>
 
  <tr>
       <th scope="row">6</th>
-      <td>  
+      <td>
 A Multi Cloud based Approach to Enhance data Security and Availability in Cloud Storage</td>
       <td>Proceedings of International Conference on ComNet CIIT & ITC 2013, pp.58-63.    (Published by Elsevier, with ISBN 978-81-910691-6-3), Organized by ACEEE, in Hyderabad from 08th -09th November 2013..</td>
       <td>International</td>
-    </tr>   
-  
+    </tr>
+
 
 <tr>
       <th scope="row">7</th>
-      <td>  
+      <td>
 Analysis of Cyber-Criminal Profiling and Cyber-Attacks: A Comprehensive study</td>
       <td>3rd World Conference on Applied Sciences, Engineering & Technology 27th -29th   Sept. 2014, Kathmandu, Nepal( ISBN 13: 978-81-930222-0-7).</td>
       <td>International</td>
-    </tr> 
+    </tr>
 
 <tr>
       <th scope="row">8</th>
-      <td>  
+      <td>
  An Integrated Approach to Provide Security and Resist Thefts on Digital Data</td>
       <td>3rd World Conference on Applied Sciences, Engineering & Technology 27th -29th   Sept. 2014, Kathmandu, Nepal( ISBN 13: 978-81-930222-0-7).</td>
       <td>International</td>
-    </tr> 
+    </tr>
 
     <tr>
       <th scope="row">9</th>
-      <td>  
+      <td>
  A Unified Model for Cherishing Privacy in Database System: An Approach to Overhaul Vulnerabilities
 
  </td>
@@ -476,7 +648,7 @@ Analysis of Cyber-Criminal Profiling and Cyber-Attacks: A Comprehensive study</t
 
     <tr>
       <th scope="row">10</th>
-      <td>  
+      <td>
  A Robust Authenticated Privacy-Preserving Attribute Matchmaking Protocol for Mobile Social Networks
  </td>
       <td>International Conference on Computational Intelligence and Informatics-2017(ICCII-2017) held during 25-27 September 2017 at JNTU, Hyderabad. </td>
@@ -484,6 +656,12 @@ Analysis of Cyber-Criminal Profiling and Cyber-Attacks: A Comprehensive study</t
     </tr>
   </tbody>
 </table></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
   </section>
 
 
@@ -492,8 +670,20 @@ Analysis of Cyber-Criminal Profiling and Cyber-Attacks: A Comprehensive study</t
 
         <div class="section-title">
 
+
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-11">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-11" aria-expanded="false" aria-controls="collapse-11">
           <h2>Invited talks in Workshops and Conferences</h2>
-          <ul style="text-align: left;" type="square">
+        </a>
+      </h5>
+    </div>
+    <div id="collapse-11" class="collapse" data-parent="#accordion" aria-labelledby="heading-11">
+      <div class="card-body">
+      <ul style="text-align: left;" type="square">
             <li>
               Delivered a Guest Lecture on “Digital Forensics and Event Reconstruction” for CSE & IT students on 15th March 2012 at RVR Institute of Engineering and Technology, Hyderabad, A.P., India.
  </li><br><li>
@@ -523,22 +713,22 @@ Chaired a Technical Session at \"IEEE International Conference on Soft Computing
   </li><br><li>
 
 Delivered a Guest lecturer at GVR&S College of Engineering & Technology, Guntur on the eve of Engineers day held on 15th September 2015.
- 
+
  </li><br><li>
 Delivered a Guest lecture on “MOOCs – the power of disruptive innovation”, at a state level 3-Day workshop on “Teaching enabled Teaching Learning in Higher Education institutions”, held during 6th -8th October 2015 at Pithapur Rajah’s Government College, Kakinada.
   </li><br><li>
 
 Delivered a Welcome Address and Chaired a Technical Session at the 4th World Conference on Applied Sciences, Engineering and Technology (WCSET-2015) organized jointly by the Basha Research Corporation, Singapore and Graduate School of Science and Technology, Kumamoto University, Japan during 24th -26th October 2015 at Kumamoto University.
- 
+
  </li><br><li>
 Delivered a Keynote and Chaired a Session at “The International Conference on Cryptography and Security”(ICCS 2015) organized by ASDF, during 26th   -27th  November 2015 , Kuala Lumpur, Malaysia.
   </li><br><li>
 
 Delivered a Keynote and Chaired a Session at The International Conference on Human Machine Interaction (ICHMI 2015)” organized by ASDF, during 26th   -27th November 2015, Kuala Lumpur, Malaysia.
- 
+
  </li><br><li>
 Delivered a speech on Cloud, Big Data Security issues and conducted hands on session on Digital Forensic tools at a Three day faculty development Programme on Big Data Analytics & Computer Forensics(03-04-2016), held during 02nd-04th May 2016, organized by Dept. of CSE, Dhanekula Institute of Engineering & Technology, Vijayawada, India.
- 
+
  </li><br><li>
 Delivered a guest lecture on \"Cloud, Big Data Security issues & Digital Forensics\"(15-07-2016) at a one week faculty development program on Recent Trends in Cloud Computing & Big Data Analytics held during 11th -16th July 2016, organized by Dept. of CSE, Malla Reddy Engineering College(A), Secunderabad, India.
   </li><br><li>
@@ -556,10 +746,10 @@ Delivered an expert lecture on Software Engineering, Networks and Cash less Tran
   </li><br><li>
 
 Delivered an expert lecture on “IOT & Security\" at GVR & S College of Engineering & Technology, Guntur on 23rd December 2016.
- 
+
  </li><br><li>
 Delivered an expert lecture on “IOT& Security\" in a two day national workshop on “Revolution of internet of things and its applications” in A.M Reddy Memorial college of Engineering and Technology, on 24th December 2016, is sponsored by Science and Engineering Research Board (SERB) New Delhi.
- 
+
  </li><br><li>
 Delivered an expert lecture on Digital Ethics & Cyber Security in a\" Two Days Seminar on Ethics and Human Values in Engineering\" on 6th January 2017, RVR&JC College of Engineering GUNTUR.
   </li><br><li>
@@ -568,7 +758,7 @@ Delivered an invited talk on \"Massive Open Online Courses\" on 06th February 20
   </li><br><li>
 
 Delivered an expert lecture on “Security in Smart Grid, IOT & Cyber Space” at one week Interdisciplinary workshop on    \"Smart Electric Power Grid with Emphasis on Embedded Systems and Cyber Security\"   on 23rd February 2017.
- 
+
  </li><br><li>
 Delivered an online expert lecture on Technology in Education (Ed-Tech Tools) to Andhra University on 14th July 2017.
   </li><br><li>
@@ -576,11 +766,11 @@ Delivered an online expert lecture on Technology in Education (Ed-Tech Tools) to
 Delivered deliberations  at Policy cum Concluding Workshop on “Technology Enhanced Learning in Agricultural Education” (under Niche Area of Excellence of ICAR), 24-25 January, 2018 organized by ICAR-National Academy of Agricultural Research Management, Rajendranagar, Hyderabad 500 030.
   </li><br><li>
 
-Delivered an expert lecture on “Latest Trends in Security\" in a 4-Day National Workshop cum FDP on Data & Security, scheduled during 16th - 19th Oct. 2019 at CET Bhubaneswar under TEQIP-III twinning activities. 
+Delivered an expert lecture on “Latest Trends in Security\" in a 4-Day National Workshop cum FDP on Data & Security, scheduled during 16th - 19th Oct. 2019 at CET Bhubaneswar under TEQIP-III twinning activities.
   </li><br><li>
 
 Delivered an invited talk on \"Career opportunities in CSE\" on 06th December 2019 in One Day National Level Technical Fest Prarambh-2k19 at Avanthi Engineering College, Tagarapuvalasa, Visakhapatnam.
- 
+
  </li><br><li>
 Delivered an expert lecture on “Evolution of Cyber Security\" on 11-12-2019 in a  “Three Day Residential Training Programme on Cyber Security & Cyber Laws, held at Andhra Pradesh Human Resource Development Institute , Bapatla-Guntur District.
   </li><br><li>
@@ -592,7 +782,7 @@ Resource person for an online Session on “IOT Security” on 10th April 2020 (
   </li><br><li>
 
 Resource person for an online FDP on Cyber Security & Digital Forensics from 21-5-2020 to 23-05-2020 (10.00am to 11.30am) organized by Dept. of CSE ISTS Women’s College.
- 
+
  </li><br><li>
 Chaired the Sessions of CSE scheduled on 11.06.2020 from 11:00 AM to 12:30 PM in a virtual International Conference entitled \"Global Webinar on Engineering, Science and Technology\"(GWEST 2020) held during  13 - 14 June 2020, organized by Baba Institute of Technology and Sciences, Visakhapatnam in association with IFERP(Institute For Engineering, Research and Publications) .
   </li><br><li>
@@ -607,13 +797,19 @@ Resource person for a webinar on \"Cyber Security Awareness\" on 13th  July 2020
   </li><br><li>
 
 Resource person for a webinar on \"Cyber Security and Forensics: Case Study & Tools\" on 30th July 2020, organized by the IEEE Vizag Bay Section in association with IETE Visakhapatnam Chapter.
- 
+
  </li><br><li>
-Delivered a webinar on \"Trends in IOT Security\", on 30th    August 2020, in a One Day National Webinar  on New Paradigms of Security in Internet of Things (IoT) , organized by Dept. of Computer Science, Government Degree College Ravulapalem 
+Delivered a webinar on \"Trends in IOT Security\", on 30th    August 2020, in a One Day National Webinar  on New Paradigms of Security in Internet of Things (IoT) , organized by Dept. of Computer Science, Government Degree College Ravulapalem
             </li>
 
           </ul>
         </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
 
 
@@ -621,8 +817,20 @@ Delivered a webinar on \"Trends in IOT Security\", on 30th    August 2020, in a 
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-12">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-12" aria-expanded="false" aria-controls="collapse-12">
           <h2>Other Information</h2>
-          <ul style="text-align: left">
+        </a>
+      </h5>
+    </div>
+          <div id="collapse-12" class="collapse" data-parent="#accordion" aria-labelledby="heading-12">
+      <div class="card-body">
+        <ul style="text-align: left">
           <li>Technical Programme Committee Member, Reviewer and Editorial Board Member
 </li><br><li>
 
@@ -633,16 +841,16 @@ Reviewer in 2013 Asia Conference on Future Trends in Computing and Communication
  </li><br><li>
 
 Technical Program Committee Member in IEEE sponsored \\\"International Conference on Electrical, Communication, Computer, Power, and Control Engineering – 2013(ICECCPCE-13)\\\",during 16th-17th December 2013, IRAQ - Mosul Technical College.
- 
+
 </li><br><li>
 Technical Program Committee Member in IEEE International Conference on Recent Advances and Innovation in Engineering (ICRAIE-2014), during 09th-11th May 2014, organized by Poornima University, Jaipur, India.
- 
+
 </li><br><li>
 Technical Program Committee Member in Fourth International Conference on Digital Image Processing and Pattern Recognition (DPPR 2014), during 24th-25th May 2014, Delhi, India.
  </li><br><li>
 
 Technical Program Committee Member in “Fourth International Conference on Artificial Intelligence, Soft Computing and Applications (AIAA-2014)",during 24th-25th May 2014, Delhi, India.
- 
+
 </li><br><li>
 Technical Program Committee Member in Third International Conference on Digital Image Processing and Vision (ICDIP-2014), 12th-13th July 2014, Sydney, Australia.
  </li><br><li>
@@ -663,10 +871,10 @@ Technical Program committee member / Reviewer of “International Conference on 
  </li><br><li>
 
 Co-Editor for the Proceedings with ISBN-978-81-929742-3-1 (volume1) of the combined volumes of the International Congress (Int.Congress 2014) held at Bangkok, Thailand during 19th - 21st November 2014.
- 
+
 </li><br><li>
 Technical program committee member / Reviewer for the \"Fourth International Conference on Signal & Image Processing (SIP 2015)\", during 2nd – 3rd January 2015, Zurich, Switzerland.
- 
+
 </li><br><li>
 Technical program committee for the “IEEE International Conference on Signal Processing, Informatics, Communication and Energy Systems 2015” (IEEE SPICES 2015), during 19th -2th February 2015, National Institute of Technology, Kozhikode (Calicut), Kerala, India.
  </li><br><li>
@@ -675,10 +883,10 @@ Technical program committee member of \"IEEE International Conference on Soft Co
  </li><br><li>
 
 Technical program committee member Reviewer for the ”Third International Conference on Instrumentation and Control Systems (CICS 2015)\" during 3th – 4th April 2015, Dubai, UAE.
- 
+
 </li><br><li>
 Technical Program Committee member for “International Conference on Inter Disciplinary Research in Engineering and Technology 2015, during 29th -30th April 2015, Govt. of NCT of Delhi, Connaught Circus, New Delhi - 110001, India.
- 
+
 </li><br><li>
 Technical Program Committee member and Reviewer for the conference “IEEE IACC2015”, during 12th -13th June, 2015, B.M.S. College of Engineering, Bangalore, India.
  </li><br><li>
@@ -687,19 +895,19 @@ Technical program committee member Reviewer of”International conference on Adv
  </li><br><li>
 
 Technical reviewer for International Conference on Electronics, Computing and Communication Technologies (CONECCT 2015) organized by IEEE Bangalore Section, held at IIIT-Bangalore, India during 10th -11th July 2015.
- 
+
 </li><br><li>
 Technical program committee for the “First International Conference on Computing in Mechanical Engineering “(ICCME’15), during 10th -13th August 2015, Kochi, India.
  </li><br><li>
 
 Technical program committee member for “The International Conference on Information Engineering, Management and Security 2015 ,during 13th -15th August 2015, VidyaaVikas College of Engineering and Technology, Thiruchengode, India.
- 
+
 </li><br><li>
 Technical program committee for MobiApps-15 (The 2nd International Workshop on Mobile Applications 24-26 August 2015), during 24th -26th August 2015, Rome, Italy.
  </li><br><li>
 
 Technical Program Committee member for “The International Conference on Cryptography and Security”(ICCS 2015) organized by ASDF, during 26th-27th  November 2015 , Kuala Lumpur, Malaysia.
- 
+
 </li><br><li>
 Technical Program Committee member for “The International Conference on Human Machine Interaction (ICHMI 2015)”, organized by ASDF, during 26th   -27th November2015, Kuala Lumpur, Malaysia.
  </li><br><li>
@@ -708,18 +916,18 @@ Designated reviewer on the technical program committee for the 15th IEEE Interna
  </li><br><li>
 
 Honorary Chair for “Sixth International Conference on Advances in Computer Science - AET-ACS 2015, held during Dec 12th -13th , 2015, in NCR-Delhi region, India. The conference is jointly organized by the IDES, ACEECom, AMAE and ACEE.
- 
+
 </li><br><li>
 Technical Program Committee member for International Conference on Innovative trends in Electronics Communication and Applications (ICIECA), during 19th -20th December2015, IIT - Madras Research Park, Chennai, India.
  </li><br><li>
 
 Program committee member Reviewer of “Fifth International Conference on Embedded Systems and Applications (EMSA-2016)”, held in   22th – 23th January 2016 at Dubai, UAE.
- 
+
 </li><br><li>
 Technical Program Committee member for the 6th IEEE International Advance Computing Conference (IACC 2016), held at S R K R Engineering College, Bhimavaram, Andhra Pradesh, India to be held during 27th -28th February 2016.
  </li><br><li>
 
-Technical Program Committee member for the International Conference on Internet of Things and Applications for Smart City (ICIOTAS-16) held at Annamacharya Institute of Technology& Sciences, Tirupati (AITS-T) on 19th – 20th March, 2016.       
+Technical Program Committee member for the International Conference on Internet of Things and Applications for Smart City (ICIOTAS-16) held at Annamacharya Institute of Technology& Sciences, Tirupati (AITS-T) on 19th – 20th March, 2016.
 </li><br><li>
 Technical Program Committee member for the Al-Sadiq International conference on Multidisciplinary in IT and Communication Techniques\", held in Baghdad- Iraq in April 2016.
  </li><br><li>
@@ -728,34 +936,34 @@ Technical Program Committee member for the “International Conference on Cloud 
  </li><br><li>
 
 Designated as a reviewer on the technical program committee for the Design and Performance of Networks on Chip 2016 (DPNoC 2016), August 15-18, 2016, Montreal, Quebec, Canada.
- 
+
 </li><br><li>
 Honorary Chair for The Seventh International Joint Conference on Advances in Engineering and Technology, AET 2016, to be held during Dec 16-17, 2016 in NCR, Delhi, India.
  </li><br><li>
 
 Technical Program Committee member for the three day IEEE international conference on “Current Trends in Health Informatics & Network Security” Dated 23-25 Feb. 2018, organized by JECRC University, Jaipur, Rajasthan, India.
- 
+
 </li><br><li>
 Technical Program Committee memberfor the “International Conference on Big Data and Data Analytics(ICBDDA-17)” at Sri Chandrasekharendra Saraswathi Viswa Mahavidyalaya, Kanchipuram, Tamilnadu on 04–05 April, 2017.
- 
+
 </li><br><li>
 Technical Program Committee member for the International Conference on Science, Technology, Engineering and Management (ICSTEM-2017),organized by GVR&S College of Engineering & Technology, Guntur, Andhra Pradesh, India.
  </li><br><li>
 
 Technical Program Committee member for the  \"International Conference on Internet of Things for Future Smart Cities (ICIOTSC-17)\", organized by Geethanjali Institute of Science and Technology, Nellore, Andhra Pradesh, India.
- 
+
 </li><br><li>
 Technical Program Committee member for \"International Conference on Applied Sciences, Engineering Technology and Management\"(ICASETM-17) , organized by DRK Institute of Science and Technology in association with Institute for Engineering Research and Publication (IFERP) ,  during 2ndand 3rd of November 2017 at Hyderabad, Telangana.
  </li><br><li>
 
 Organizing Committee member in \"3rd International Conference on Recent Challenges in Engineering and Technology\" (ICRCET-2017) held at Annamacharya Institute of Technology & Science, Tirupati on 12th& 13th September, 2017.
- 
+
 </li><br><li>
 Advisory Committee member in AICTE sponsored International Conference on Internet of Things and Wireless Sensor Networks at our college, Sasi Institute of Technology and Engineering, Tadepalligudem on 17th& 18th November 2017.
- 
+
 </li><br><li>
 International Advisory Committee Member of the   International Conference on Advanced Engineering and Information Technology (ICAEIT 2017) during 7th-9th December, 2017 at Linton University College (LUC), Malaysia.
- 
+
 </li><br><li>
 National Advisory Committee member in “
 International Conference on Recent Advancement in Computer Science and Communication Technology (ICRCSCT-18
@@ -769,41 +977,41 @@ Conference Committee Member of \"International Conference on Big Data and Comput
  </li><br><li>
 
 National International Advisory committee member for \"International Conference on Future Trends in Engineering, Management, Science & Technology (ICFTEMST-2018) on 10th & 11th May, 2018 at DRK College of Engineering and Technology, Hyderabad.
- 
+
 </li><br><li>
 Designated reviewer on the technical program committee for the 5th International Workshop on Mobile Applications 2018 (MobiApps 2018),6-8 August 2018, Barcelona, Spain
  </li><br><li>
 
 Organizing Committee Member for “International Conference on Recent Trends in Automation (ICRTA-2018)” on 01st –2nd Nov, 2018 at Vasireddy Venkatadri Institute of Technology (VVIT)
 Guntur, Andhra Pradesh in association with Institute for Engineering Research and Publications (IFERP)
- 
+
 </li><br><li>
 Organizing Committee Member for  “International Conference On Applied Sciences, Engineering, Technology And Management (ICASETM-18)”  on 24th-25th November, 2018, held in Bangalore at IBIS Hotel, Bommanahalli, Bengaluru.
- 
+
 </li><br><li>
 Organizing Committee Member for 5th International Conference on Recent Trends in Computing (ICRTC-18) on 27-28 December 2018 at SRM Institute of Science & Technology, NCR Campus,Ghaziabad, Delhi.
- 
+
 </li><br><li>
 Organizing Committee Member for International Conference on Advances in Signal Processing, Power, Embedded, Soft Computing, Communication and Control Systems (ICSPECS-2019) on 11th - 12th January, 2019, held in G.Pulla Reddy Engineering College (Autonomous).
- 
+
 </li><br><li>
 Program Committee Member for International Conference on \"Cognitive Computing and Big Data Analytics\" during 27-28, February 2019 at St.Peter\\\'s Institute of Higher Education and Research, Chennai
  </li><br><li>
 
 Program committee member of “6th International Conference on Data Mining and Database (DMDB 2019) \\\" held in  May 25~26, 2019, Vancouver.
- 
+
 </li><br><li>
 “Scientific Committee Member” for “International Conference on Latest Trends in Engineering and Management (ICLTEM-19)”,  “October 20th -21st 2019” at “Accord Hotel, Pondicherry
  </li><br><li>
 
 Technical Committee Member of ​ACCC2020-​2020 Asia-International Conference on Computers and Communications (ACCC 2020) will be held in Singapore during September 18-20, 2020.
- 
+
 </li><br><li>
 Editor for Journal of Open Source Developments an Section Editor for “International Journal of Innovative Technology and Research” (IJITR).
  </li><br><li>
 
 Editorial Board member for “Advanced Computing: An International Journal (ACIJ),World Science Publisher, United States”, “International Journal of Advanced Computer Communications and Control” (IJACCC), “International Journal of Advanced Computer Research” (IJACR , Journal of Life Medicine (JLM), International Journal of Advances in Engineering & Technology(IJAET),International journal of Innovative Research in Engineering Applications (IJIREA)
- 
+
 </li><br><li>
 Technical Reviewer for IEEE, Springer, IGI book chapters, IJCSIS, IJCSES, IJCSEA, IJITCS, IJCSS, AIRCC, IJACR, Advancement in Scientific and Engineering Research (ASER).
           </li></ul>
@@ -813,13 +1021,19 @@ Technical Reviewer for IEEE, Springer, IGI book chapters, IJCSIS, IJCSES, IJCSEA
         <div class="row counters">
 
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
 
 
   </main><!-- End #main -->
 
 
-  <?php 
+  <?php
   include '../../footer.php';
   ?>
 

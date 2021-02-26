@@ -8,15 +8,15 @@
   <title>Tummalapalli Siva Rama Krishna profile</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
-  <?php 
+  <?php
   include 'facultylinks.php';
   ?>
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
- 
+
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
- 
+
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
@@ -27,9 +27,9 @@
 <body>
 
   <?php
-  include 'facultyheader.php';
+  include 'nav.php';
   ?>
- 
+
 
   <main id="main">
 
@@ -53,7 +53,7 @@
                   <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong>M.Tech. AU 2010, FinSIG, AWSCCP, AWSAAE, CCD, ACE, AACARPAP, AFCEH</li>
                   <li><i class="icofont-rounded-right"></i><strong>Subjects:</strong>Cyber Security, Forensics</li>
 				  <li><i class="icofont-rounded-right"></i><strong>Nationality:</strong>Indian</li>
-				  
+
 				</ul>
               </div>
               <div class="col-lg-6">
@@ -61,10 +61,10 @@
                   <li><i class="icofont-rounded-right"></i> <strong>Email id:</strong>tsrk.cse@jntukucev.ac.in
                   </li>
 				  <li><i class="icofont-rounded-right"></i><strong>Phone:</strong>9966005482</li>
-                  
+
                 </ul>
               </div>
-            </div>           
+            </div>
           </div>
         </div>
       </div>
@@ -75,9 +75,20 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Affiliations</h2>
-        </div>
+          <div id="accordion">
 
+  <div class="card">
+    <div class="card-header" id="heading-1">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
+          <h2>Affiliations</h2>
+        </a>
+      </h5>
+    </div>
+
+        </div>
+        <div id="collapse-1" class="collapse" data-parent="#accordion" aria-labelledby="heading-1">
+      <div class="card-body">
         <div class="row counters">
             <ul>
               <li>Indian Society for Technical Education [ISTE] (Life Member)</li>
@@ -97,6 +108,12 @@
 </li>
             </ul>
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section><!-- End Affiliations session -->
 
     <!-- ======= Publications ======= -->
@@ -104,10 +121,19 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Publications</h2>
-          
-        </div>
+          <div id="accordion">
 
+  <div class="card">
+    <div class="card-header" id="heading-2">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+          <h2>Publications</h2>
+        </a>
+      </h5>
+    </div>
+        </div>
+         <div id="collapse-2" class="collapse" data-parent="#accordion" aria-labelledby="heading-2">
+      <div class="card-body">
         <div class="row skills-content">
             <ul>
             <li><a href="https://www.researchgate.net/publication/282816391_CLOUD_FORENSICS_THE_NEED_AND_CHALLENGES">CLOUD FORENSICS: THE NEED AND CHALLENGES</a></li>
@@ -117,14 +143,20 @@
             <li><a href="https://www.researchgate.net/publication/282816286_MYthiNET">MYthiNET</a>
           </ul>
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section><!-- End Publications Section -->
 
-   
+
 
 
   </main><!-- End #main -->
 
-  <?php 
+  <?php
   include '../../footer.php';
   ?>
 

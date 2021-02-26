@@ -9,7 +9,7 @@
 		include 'links.php';
 	?>
 
-	<style> 
+	<style>
 		.constelle {
 			position:relative;
 			text-align:center;
@@ -74,16 +74,25 @@
 										<li data-target="#carouselslides" data-slide-to="0" class="active"></li>
 										<li data-target="#carouselslides" data-slide-to="1"></li>
 										<li data-target="#carouselslides" data-slide-to="2"></li>
+										<li data-target="#carouselslides" data-slide-to="3"></li>
+										<li data-target="#carouselslides" data-slide-to="4"></li>
+
 									</ol>
 									<div class="carousel-inner">
 										<div class="carousel-item active">
-											<img class="d-block w-100" src="assets/img/c1.jpeg" alt="First slide" height="500" >
+											<img class="d-block w-100" src="assets/img/cresense 2k19.jpg" alt="First slide" >
 										</div>
 										<div class="carousel-item">
 											<img class="d-block w-100" src="assets/img/c2.jpeg" alt="Second slide">
 										</div>
 										<div class="carousel-item">
-											<img class="d-block w-100" src="assets/img/c3.jpeg" alt="Third slide">
+											<img class="d-block w-100" src="assets/img/constelle1.jpg" alt="Second slide">
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/img/constelle2.jpg" alt="Second slide">
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="assets/img/constelle4.jpg" alt="Second slide">
 										</div>
 									</div>
 									<a class="carousel-control-prev" href="#carouselslides" role="button" data-slide="prev">

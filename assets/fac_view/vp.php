@@ -9,14 +9,14 @@
   <title>Dr.R.Rajeswara Rao</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
-  <?php 
+  <?php
   include 'facultylinks.php';
   ?>
 
   <!-- Favicons -->
- 
+
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
- 
+
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
@@ -27,7 +27,7 @@
 <body>
 
   <?php
-  include 'facultyheader.php';
+  include 'nav.php';
   ?>
 
   <main id="main">
@@ -46,7 +46,7 @@
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3 >Professor &amp; Vice Principal</h3>
-            
+
             <div class="row">
               <div class="col-lg-6">
                 <ul>
@@ -57,9 +57,9 @@
                   <li><i class="icofont-rounded-right"></i> <strong>Nationality:</strong>  Indian</li>
                 </ul>
               </div>
-              
+
             </div>
-            
+
           </div>
         </div>
 
@@ -71,8 +71,20 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+             <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-1">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
           <h2>Educational Qualifications</h2>
-<ul style="text-align: left;">
+        </a>
+      </h5>
+    </div>
+
+          <div id="collapse-1" class="collapse" data-parent="#accordion" aria-labelledby="heading-1">
+      <div class="card-body">
+          <ul style="text-align: left;">
   <li>
    <b> Post Doc. University of Missouri-Columbia (May2019 to August 2019)</b>
 </li><br><li>
@@ -99,6 +111,12 @@ Division: Distinction (71%)<br>
         <div class="row skills-content">
 
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section><!-- End Skills Section -->
 
     <!-- ======= Facts Section ======= -->
@@ -106,8 +124,19 @@ Division: Distinction (71%)<br>
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-2">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
           <h2>Academic/Professional Awards and Recognition</h2>
-          <ul style="text-align: left;">
+        </a>
+      </h5>
+    </div>
+          <div id="collapse-2" class="collapse" data-parent="#accordion" aria-labelledby="heading-2">
+      <div class="card-body">
+                  <ul style="text-align: left;">
             <li>State level committee member for Curriculum Development for the state of Andhra Pradesh appointed by AP-State </li><br><li>Council for Higher Education ( APSCHE) for  Computer Science & Engineering</li><br><li>
 Confidential Team Member EAMCET-2014, EAMCET-2017</li><br><li>
 Confidential Team Member AP-POLICE RECRUITMENT BOARD 2016, 2017</li><br><li>
@@ -124,6 +153,12 @@ Received VIDYA RATAN award from T.E.H.E.G, New Delhi, for the year 2011.</li>
         <div class="row counters">
 
       </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
     </section><!-- End Facts Section -->
 
     <!-- ======= Testimonials Section ======= -->
@@ -131,8 +166,21 @@ Received VIDYA RATAN award from T.E.H.E.G, New Delhi, for the year 2011.</li>
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-3">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
           <h2>Professional (Research/Teaching) Experience</h2>
-         <ul style="text-align: left;">
+
+        </a>
+      </h5>
+    </div>
+          <div id="collapse-3" class="collapse" data-parent="#accordion" aria-labelledby="heading-3">
+      <div class="card-body">
+        <ul style="text-align: left;">
           <li>19+ Years of teaching experience.
 </li><br><li>12 + Years of Research Experience.
 </li><br><li>Presently Supervising Four Students at JNTU-Hyderabad and JNUK-Kakinada
@@ -140,7 +188,13 @@ Received VIDYA RATAN award from T.E.H.E.G, New Delhi, for the year 2011.</li>
          </li></ul>
         </div>
 
-       
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
 
 
@@ -148,16 +202,31 @@ Received VIDYA RATAN award from T.E.H.E.G, New Delhi, for the year 2011.</li>
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-4">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
           <h2>Research Interests</h2>
+        </a>
+      </h5>
+    </div>
+          <div id="collapse-4" class="collapse" data-parent="#accordion" aria-labelledby="heading-4">
+      <div class="card-body">
          <ul style="text-align: left;">
           <li>Speech Processing</li><br><li>
-Pattern Recognition</li><br><li>
-Artificial Intelligence</li><br><li>
-Cloud Computing
+            Pattern Recognition</li><br><li>
+            Artificial Intelligence</li><br><li>
+           Cloud Computing
          </li></ul>
         </div>
+         </div>
+    </div>
+  </div>
 
-       
+</div>
+
     </section>
 
 
@@ -165,8 +234,19 @@ Cloud Computing
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-5">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
           <h2>Details of Courses Taught</h2>
-         <ul style="text-align: left;">
+        </a>
+      </h5>
+    </div>
+          <div id="collapse-5" class="collapse" data-parent="#accordion" aria-labelledby="heading-5">
+      <div class="card-body">
+        <ul style="text-align: left;">
           <li>Artificial Intelligence</li><br><li>
 Formal Languages and Automata Theory</li><br><li>
 Compiler Design</li><br><li>
@@ -179,31 +259,66 @@ Software Project Management.
          </li></ul>
         </div>
 
-       
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
     </section>
 
 <section id="books" class="books">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+           <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-6">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-6" aria-expanded="false" aria-controls="collapse-6">
           <h2>Books Edited/ Authored</h2>
-         <ul style="text-align: left;">
+        </a>
+      </h5>
+    </div>
+
+          <div id="collapse-6" class="collapse" data-parent="#accordion" aria-labelledby="heading-6">
+      <div class="card-body">
+        <ul style="text-align: left;">
           <li>R.Rajeswara Rao, Mr. D. Murali  Software Engineering-A New Approach (Traditional and Agile Methodologies) BSP Publications ISBN: 9789387593756 ,2018.</li><br><li>
 Dr. R.Rajeswara Rao , M. Sridevi,  Dr.M.Varaprasad Rao, Search   optimization   to select an item across e- commerce platforms: App Development,  for the upcoming book Improving E- Commerce Web Applications through Business  Intelligence Techniques ,IGI   Publications, 2017</li><br><li>
   R. RajeshwaraRao  & V. Subba Rammaiaha Cloud Computing & Virtualization, BSP Publications,               ISBN:978- 9383635047 2014
   </li><br><li>R. Rajeswara Rao, V. Kamakshi Prasad, Automatic Text Independent Speaker Recognition using Source Feature,(ISBN 978-3-659-10800-6), Lap LABERT Publishing GmbH Co. KG,Germany, 2012.
          </li></ul>
         </div>
+      </div>
+    </div>
+  </div>
 
-       
+</div>
+
+
+
     </section>
 
 <section id="Membership" class="Membership">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Membership of Academic/Professional Bodies</h2>
-         <ul style="text-align: left;">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-7">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-7" aria-expanded="false" aria-controls="collapse-7">
+           <h2>Membership of Academic/Professional Bodies</h2>
+        </a>
+      </h5>
+    </div>
+         <div id="collapse-7" class="collapse" data-parent="#accordion" aria-labelledby="heading-7">
+      <div class="card-body">
+        <ul style="text-align: left;">
           <li>Member-IEEE, MCSI</li><br><li>
 Member, Editorial Board of International Journal of Soft Computing</li><br><li>
 and Engineering (IJSCE).
@@ -213,7 +328,13 @@ Member, Faculty Selections for Private Colleges, JNTUK,Kakinada
          </li></ul>
         </div>
 
-       
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
 
 
@@ -222,47 +343,91 @@ Member, Faculty Selections for Private Colleges, JNTUK,Kakinada
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-8">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-8" aria-expanded="false" aria-controls="collapse-8">
           <h2>Administrative Service</h2>
-         <ul style="text-align: left;">
+        </a>
+      </h5>
+    </div>
+
+         <div id="collapse-8" class="collapse" data-parent="#accordion" aria-labelledby="heading-8">
+      <div class="card-body">
+        <ul style="text-align: left;">
           <li>Officer In-Charge of Hostel,  from June, 2013 to Jan, 2017</li><br><li>
 Head of the Department, 18th Jan 2016 to 16th  Dec 2018</li><br><li>
 IQAC Coordinator from,14th March 2019 to17th Jan 2020</li><br><li>
 NBA Coordinator from,7th March 2019 to till date.
          </li></ul>
         </div>
+      </div>
+    </div>
+  </div>
 
-       
-    </section>
+</div>
+             </section>
 
 <section id="workshop" class="workshop">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-9">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-9" aria-expanded="false" aria-controls="collapse-9">
           <h2>Workshops/Conferences Organized</h2>
-         <ul style="text-align: left;">
+        </a>
+      </h5>
+    </div>
+          <div id="collapse-9" class="collapse" data-parent="#accordion" aria-labelledby="heading-9">
+      <div class="card-body">
+        <ul style="text-align: left;">
           <li>Organized a one week workshop on “Research Challenges and Issues in Big Data and Cloud Computing”, 27th to 31stJanuary 2015, JNTUK –UCEV</li><br><li>
-Organized a two day National Level workshop on “Resent Research Trends in Computer Science and Information Technology”., 21st and 22nd June 2013, JNTUK –UCEV</li><br><li>
-Chaired-Two Day National Workshop on “Fog Computing and Internet of Things” on 28th and 29th March, 2016
+          Organized a two day National Level workshop on “Resent Research Trends in Computer Science and Information Technology”., 21st and 22nd June 2013, JNTUK –UCEV</li><br><li>
+          Chaired-Two Day National Workshop on “Fog Computing and Internet of Things” on 28th and 29th March, 2016
         </li></div>
 
-       
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
     </section>
 <section id="workshop" class="workshop">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+<div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-10">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-10" aria-expanded="false" aria-controls="collapse-10">
           <h2>Workshops/Conferences Attended</h2>
-         <ul style="text-align: left;">
-          
+        </a>
+      </h5>
+    </div>
+
+          <div id="collapse-10" class="collapse" data-parent="#accordion" aria-labelledby="heading-10">
+      <div class="card-body">
+        <ul style="text-align: left;">
+
             <b>2017:
 </b>
 <br>
 <li>Attended “Two Day Instructional Workshop on Python Programming “during 1st & 2ndJuly, 2017, JNTUK, UCEV, Vizianagaram.
 </li>
-<b>2016:           
+<b>2016:
 </b><br>
 <li>Attended Two Day Workshop on Fog & IoT, 28th & 29th March, 2016, JNTUK- UCEV, Vizianagaram
-</li><br><b>2015: </b>                                 
+</li><br><b>2015: </b>
 
 Organized a one week workshop on “Research Challenges and Issues in Big Data and Cloud Computing”, 27th to 31stJanuary 2015, JNTUK –UCEV
 <br><b>2014:</b>
@@ -296,7 +461,7 @@ Recent Trends in Cloud Computing and Virtualization, VVIT, Sep 13-15, Hyderabad,
 <br><li>Winter School on Speech and Image Processing (WISP),IIIT, Hyderabad, 2010.
 </li><br><b>2009:
 </b>
-</li><br><li>Winter School on Speech and Signal Processing (WiSSAP),IIT, Kharagpur, 2009.       
+</li><br><li>Winter School on Speech and Signal Processing (WiSSAP),IIT, Kharagpur, 2009.
 </li><br><li>Winter School on Speech and Image Processing (WISP),IIIT, Hyderabad, 2009.
   </li><br><b>2007:
 </b>
@@ -306,7 +471,12 @@ Recent Trends in Cloud Computing and Virtualization, VVIT, Sep 13-15, Hyderabad,
 Winter School on Speech and Signal Processing (WiSSAP),IISc, Bangalore,2006.
         </li></ul></div>
 
-       
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
 
 
@@ -314,8 +484,19 @@ Winter School on Speech and Signal Processing (WiSSAP),IISc, Bangalore,2006.
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-11">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-11" aria-expanded="false" aria-controls="collapse-11">
           <h2>Conference Publications and proceedings</h2>
-         <ul style="text-align: left;">
+        </a>
+      </h5>
+    </div>
+         <div id="collapse-11" class="collapse" data-parent="#accordion" aria-labelledby="heading-11">
+      <div class="card-body">
+        <ul style="text-align: left;">
           <li>
            <b> International Conferences:</b><br>
            <b>
@@ -325,20 +506,20 @@ Dr. R.Rajeswara Rao., et. al “Dynamic Computation Off-loading and Control base
 <b>2018
 </b><br><li>
 Dr. R.Rajeswara Rao ., et. Al “ Prototype Selection of Online Handwritten Telugu Characters Recognition Using Voronoi Tessellation  Computational Intelligence in Data Mining Proceedings of the International Conference on ICCIDM 2018
- </li><br><b>2017      
+ </li><br><b>2017
 </b><br><li>
 R.Rajeswara Rao., et. al “Finding Right Doctors and Hospitals: Personalized  Health Recommender “ ICTCS 2017, Udaipur, Springer LNNS series .</li>
 <li>Naga Padmaja, R. Rajeswar Rao, “Exploring Emotion Specific Features For Emotion Recognition System Using PCA Approach”, International Conference on Intelligent Computing and Control Systems (ICICCS) , 978-1-5386-2745, IEEE 2017
 Naga Padmaja, R. Rajeswar Rao, “Analysis of Speaker Independent Emotion Recognition System Using Principle Component Analysis (PCA) And Gaussian Mixture Models (GMM)”, International Journal of Engineering Technology Science and Research, (IJETSR), ISSN 2394 – 3386, Volume 4, Issue 12, December 2017. pp. 767-778.
 Ashlin Deepa R N, Rajeswara Rao R, ”An Eigen characters method for Recognition of Handwritten Tamil Character Recognition”, Proceedings of the First International Conference on Intelligent Computing and Communication, Advances in Intelligent Systems and Computing 458,
-</li> 
+</li>
 
-     <br><b> 2016              
+     <br><b> 2016
 </b><li>
 Rajeswara Rao V and. Subba Ramaiah, “Slope at zero crossings (zc) of speech signal for multi-speakeractivity detection”, In proceedings of ICECE-16, JNTUK-UCEV, Vizianagaram, 29th – 30th July, 2016.
 </li><li>R.Rajeswara Rao, et. al “An Enhanced Personalized Recommendation Utilizing Expert’s Opinion via Collaborative Filtering and Clustering Techniques”, ICICT-2016, IEEE Explore, 978-1-5090-1286-2, Aug 2016
-</li><li>R.Rajeswara Rao, et. al  “Recommendation System   for Smart Mobile Phone selection through e-commerce website using TOPSIS algorithm “, NCCSIGMA 16, IJAERS, ISSN: 2349-6495, Dec 2016.               
-</li><li>Rajeswara Rao and V. Subba Ramaiah and, “Multi-speaker activity detection using zero crossingrate”, In proceedings of ICCSP-16, Adhiparasakthi Engineering College, pp. 18-21, April 8-9, 2016, Chennai.   (Published in IEEE Explore). 
+</li><li>R.Rajeswara Rao, et. al  “Recommendation System   for Smart Mobile Phone selection through e-commerce website using TOPSIS algorithm “, NCCSIGMA 16, IJAERS, ISSN: 2349-6495, Dec 2016.
+</li><li>Rajeswara Rao and V. Subba Ramaiah and, “Multi-speaker activity detection using zero crossingrate”, In proceedings of ICCSP-16, Adhiparasakthi Engineering College, pp. 18-21, April 8-9, 2016, Chennai.   (Published in IEEE Explore).
 </li><li>Naga Padmaja, R. Rajeswar Rao, “Exploring Spectral Features for Emotion Recognition Using GMM” Vol. 14 ICETCSE 2016 Special Issue International Journal of Computer Science and Information Security (IJCSIS) ISSN 1947-5500 pp 46-52.
 </li><b>2015:
 </b>
@@ -361,18 +542,18 @@ Rajeswara Rao et.al. Efficient resource reservation policies for effective resou
 </b><br>
  <li>Rajeswara Rao et.al.A Medial Node Based Privacy Approaches for Preventing Selective Jamming in Wireless Networks, IEEE ISPCCC, September-28, 2013.
 </li><li>Rajeswara Rao et.al. Based Approaches for Preventing Selective Jamming in Wireless Networks, ICEECP, GOA, April-2013.
- 
+
 </li><br>
 National Conferences:
 
 <b>2014:
 </b><br><li>
  R. Rajeswara Rao et.al.,Combining Malt & MST for Telugu dependency parsing. In proceedings of ACPR-2014,   Oct,, JNTU College of Engineering Jagityala
- 
+
 
 <b>2013:</b><br>
 
- 
+
 <li>
 Rajeswara Rao et.al.Improving the usability of Statistical Parsers by incorporating linguistic constraints, in proceedings of NCRTCST, 2013 Hyderabad.
 </li><li>Rajeswara Rao et.al.National Conference on Emerging Trends of Computing Technologies, 2013
@@ -380,17 +561,34 @@ Rajeswara Rao et.al.Modeling Prosodic features for Automatic Text-Independent Sp
 
         </li></div>
 
-       
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
     </section>
 
 <section id="Journal" class="Journal">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-12">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-12" aria-expanded="false" aria-controls="collapse-12">
           <h2>Journal Publications</h2>
-         <ul style="text-align: left;">
-          
-            <b>2019:  
+        </a>
+      </h5>
+    </div>
+         <div id="collapse-12" class="collapse" data-parent="#accordion" aria-labelledby="heading-12">
+      <div class="card-body">
+        <ul style="text-align: left;">
+
+            <b>2019:
 </b><br><li>
 Rajeswara Rao, R , Ashlin Deepa, R.N. A novel Nearest Interest Point  classifier for offline Tamil Handwritten character recognition, Pattern Analysis and Applications, Springer (Accepted) Pattern Analysis and Applications, Springer. SCOPUS INDEXED (2019). https://doi.org/10.1007/s10044-018-00776-x.
 </li><li>Rajeswara Rao , J. Naga Padmaja, ,Telugu Based Emotion Recognition System using Hybrid Features, International Journal of Computer Applications, (IJCA)0975 – 8887, Volume 182 – No. 37, January 2019 .
@@ -404,7 +602,7 @@ Rajeswar Rao, S. Radha Krishna ,” GMM-PCA based Approach for Emotion Recogniti
 </li><li>Radha Krishna, R. Rajeswara Rao, “GMM–PCA based approach for Emotion RecognitionusingSpectral Features”, free Elesiver Scopus Indexed Journal, Journal of Advanced Research in Dynamical & Control Systems, Vol.10, 04 2018, ISSN: 1992-8645, E-ISSN: 1817-3195, pp. 4044-4054.
 </li><li>Radha Krishna, R. Rajeswara Rao, “SVM–PCA based approach for Emotion Recognition using Spectral Features”, free Elesiver Scopus Indexed Journal, Journal of Advanced Research in Dynamical & Control Systems, Vol.10, 11, 2018, ISSN: 1943-023X,pp.982-993.
 </li><li>Rajeswar Rao , J. Naga Padmaja, ,”performance improvement and analysis of speaker independent emotion recognition system   using i-vectors”, Journal of Theoretical and Applied Information Technology, Vol.96.   No 13, ISSN: 1992-8645, E-ISSN: 1817-3195, pp. 4044-4054
- </li><b>2017:              
+ </li><b>2017:
 </b><li>
 Rajeswara Rao and V. Subba Ramaiah  “Speaker Diarization System using   HXLPS and deep neural   network”,  Alexandria Journal- ELSEVIER Journal, Jan., 2017.
 </li><li>Rajeswara Rao, et.al. “ A Modified GA Classifier for offline Tamil Handwritten Character Recognition. Int. Journal of Applied Pattern Recognition ( Inder Science) Vol-4, No-1, 2017.
@@ -414,17 +612,23 @@ Rajeswara Rao and V. Subba Ramaiah  “Speaker Diarization System using   HXLPS 
 </li><li>Rajeswara Rao , J. Naga Padmaja, “Analysis And Identification Of Emotion Specific Features For Speaker Independent Emotion Recognition System Using Gaussian Mixture Models (GMMs)”  Advances in Computational Sciences and Technology, (ACST)ISSN 0973-6107 Volume 10, Number 8 (2017) pp. 2491-2505
 </li><li>Rajeswara Rao , et.al Preprocessing of online handwritten Telugu character recognition\\\\\\\\\\\\\\\", International Journal of Advanced and Applied Sciences, 4(7) 2017, Pages: 179-189
 </li><li>Rajeswara Rao , J. Naga Padmaja, ,”Performance Improvement And Analysis Of Speaker Independent Emotion Recognition System Using I-vectors”, Journal of Theoretical and Applied Information Technology (JATIT), Vol.96. No 13, ISSN: 1992-8645, E-ISSN: 1817-3195, pp. 4044-4054.
-</li><li>Radha Krishna, R. Rajeswara Rao, “Exploring Robust Spectral Features For Emotion Recognition using Statistical Approaches”, 6th IEEE International Conference on Communications and Signal Processing, April 6-8, 2017, India  
+</li><li>Radha Krishna, R. Rajeswara Rao, “Exploring Robust Spectral Features For Emotion Recognition using Statistical Approaches”, 6th IEEE International Conference on Communications and Signal Processing, April 6-8, 2017, India
         </li>
       </ul></div>
 
-       
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
 
 
   </main><!-- End #main -->
 
-  <?php 
+  <?php
   include '../../footer.php';
   ?>
 

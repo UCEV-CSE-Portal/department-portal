@@ -9,15 +9,15 @@
   <title>D. Rajya Lakshmi profile</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
-  <?php 
+  <?php
   include 'facultylinks.php';
   ?>
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
- 
+
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
- 
+
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
@@ -28,7 +28,7 @@
 <body>
 
   <?php
-  include 'facultyheader.php';
+  include 'nav.php';
   ?>
 
   <main id="main">
@@ -38,8 +38,9 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+
           <h2>D. Rajya Lakshmi</h2>
-          
+
         </div>
 
         <div class="row">
@@ -48,7 +49,7 @@
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Professor</h3>
-           
+
             <div class="row">
               <div class="col-lg-6">
                 <ul>
@@ -57,9 +58,9 @@
                   <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong>  9618016555</li>
                 </ul>
               </div>
-              
+
             </div>
-            
+
           </div>
         </div>
 
@@ -71,8 +72,19 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-1">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
           <h2>Educational Qualifications</h2>
-          <ul style="text-align: left;">
+        </a>
+      </h5>
+    </div>
+          <div id="collapse-1" class="collapse" data-parent="#accordion" aria-labelledby="heading-1">
+      <div class="card-body">
+     <ul style="text-align: left;">
             <li>
               <b>Ph.D in Computer Science and Engineering at JNTU, Hyderabad</b><br>
  Area of Research : Computer Vision and Image Processing.<br>
@@ -94,6 +106,13 @@ Based Similarity Search</li>
         <div class="row skills-content">
 
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
     </section><!-- End Skills Section -->
 
     <!-- ======= Facts Section ======= -->
@@ -101,8 +120,19 @@ Based Similarity Search</li>
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-2">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
           <h2>Teaching Experience</h2>
-          <p style="text-align: left;">
+        </a>
+      </h5>
+    </div>
+           <div id="collapse-2" class="collapse" data-parent="#accordion" aria-labelledby="heading-2">
+      <div class="card-body">
+         <p style="text-align: left;">
             1. Worked as Lecturer at KLCE in the Dept. of ECE during the year September, 1992 –
 April, 1994 (1 year 8 months).<br>
 2. Worked as Asst. Prof. at GITAM College of Engineering in the Dept. of CSE,
@@ -133,6 +163,12 @@ date.<br>
         <div class="row counters">
 
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section><!-- End Facts Section -->
 
     <!-- ======= Testimonials Section ======= -->
@@ -140,8 +176,20 @@ date.<br>
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Research Publications</h2>
-          <p style="text-align: left;">
+               <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-3">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+         <h2>Research Publications</h2>
+        </a>
+      </h5>
+    </div>
+
+           <div id="collapse-3" class="collapse" data-parent="#accordion" aria-labelledby="heading-3">
+      <div class="card-body">
+        <p style="text-align: left;">
            <b> JOURNAL PUBLICATIONS – 52</b><br>
 1) Published paper “Progressive Query based search and Retrieval in large image
 Archives”, International Journal of Computer Science and Network Security, Vol.7
@@ -435,8 +483,14 @@ Computational Intelligence 2017, Chirala Engineering College conducted from 23rd
 March 2017 to 25th March 2017.D.Bhanu Mahesh, D.Rajya Lakshmi<br>
           </p>
         </div>
+      </div>
+    </div>
+  </div>
 
-       
+</div>
+
+
+
     </section>
 
     <!-- End Testimonials Section -->
@@ -444,8 +498,21 @@ March 2017 to 25th March 2017.D.Bhanu Mahesh, D.Rajya Lakshmi<br>
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-4">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
           <h2>Textbooks Published</h2>
-          <ul style="text-align: left;">
+        </a>
+      </h5>
+    </div>
+
+    <div id="collapse-4" class="collapse" data-parent="#accordion" aria-labelledby="heading-4">
+      <div class="card-body">
+         <ul style="text-align: left;">
             <li>
               <b>WATER QUALITY PREDICTION OF AQUA PONDS Lap LAMBERT
 Academic Publishing, 2019
@@ -457,14 +524,32 @@ INFORMATION SECURITY Scitech Publications (INDIA), First EditionMarch 2012.
         <div class="row skills-content">
 
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
 
 <section id="workshops" class="workshops">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Workshops Attended</h2>
-          <ul style="text-align: left;">
+
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-5">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
+        <h2>Workshops Attended</h2>
+        </a>
+      </h5>
+    </div>
+    <div id="collapse-5" class="collapse" data-parent="#accordion" aria-labelledby="heading-5">
+      <div class="card-body">
+         <ul style="text-align: left;">
 
 ➢ Attended A Three Day Workshop on “Software Development Life Cycle Using IBM
 Rational Tools” organized by CSE & IT Dept. of GNITS, Hyderabad.<br>
@@ -582,13 +667,31 @@ at JNTUK –UCE, Vizianagaram on 19th and 20th March 2014.<br>
         <div class="row skills-content">
 
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
  <section id="MEMBERSHIP" class="MEMBERSHIP">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
+          <div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="heading-6">
+      <h5 class="mb-0">
+        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-6" aria-expanded="false" aria-controls="collapse-6">
           <h2>MEMBERSHIP IN PROFESSIONAL BODIES</h2>
-          <ul style="text-align: left;">
+        </a>
+      </h5>
+    </div>
+
+          <div id="collapse-6" class="collapse" data-parent="#accordion" aria-labelledby="heading-6">
+      <div class="card-body">
+        <ul style="text-align: left;">
             <li>
               Life Member CSI
 </li><li> Life Member ISTE
@@ -598,11 +701,17 @@ at JNTUK –UCE, Vizianagaram on 19th and 20th March 2014.<br>
         <div class="row skills-content">
 
       </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
     </section>
 
   </main><!-- End #main -->
 
-  <?php 
+  <?php
   include '../../footer.php';
   ?>
 

@@ -45,7 +45,7 @@ M. Geetha Madhuri profile</title>
 
         <div class="row">
           <div class="col-lg-4">
-            <img src="assets/img/team/madhuri mam-2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/team/geethamam.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Assistant Professor</h3>

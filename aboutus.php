@@ -1,28 +1,60 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <?php
-    include 'links.php';
-  ?>
-  <link rel="stylesheet" type="text/css" href="assets/css/aboutus.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<?php
+	include 'links.php';
+	?>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/aboutus.css">
+    <style type="text/css">
+		p{
+			text-align: justify;
+		}
+		.table th{
+            text-decoration-color: white;
+            color:snow;
+        }
+
+	</style>
+
+
+</head>
 </head>
 <body>
-  <?php
-    include 'nav.php';
-  ?>
-  <section class="company-sections pt-3" id="section">
-     <div class="container py-3">
-      	<h2>ABOUT THE DEPARTMENT</h2>
-      		<h3>COMPUTER SCIENCE AND ENGINEERING</h3>
-             			<div class="red-border"></div>
-       				 <p class="ct-u-size22 ">The Department of Computer Science and Engineering is distinctively positioned to educate the technological leaders of tomorrow. Our goal is to ensure our engineering graduates to be problem solvers, project leaders, entrepreneurs, and ethical citizens of global society. Through innovative teaching-learning process, a teamwork approach and leadership building experience, our students gain vital communication and critical-thinking skills. We provide a platform for the students to enhance their employability skills through Industry Institute Collaboration.Our labs, with latest facilities and unlimited Internet facility, give our students a cutting edge in technical exploration and enhance their information search and analysis skills. The scope of Computer Science is endless.The department has many MOUs with various organizations and have CISCO Networking Academy, AWS Academy, Blue Prism Academy, Redhat Academy, Paloalto Cyber Security Academy Blackbuck Excellence Centre, Swecha Learning Centre etc. for imparting essential technical skills, through which the faculty members and students of department are being benefitted.
-				</p>
-    			</div>
-  		</section>
+	<?php
+	include 'nav.php';
+	?>
+	<br>
+
+<section class="company-sections pt-3" id="section">
+<div class="container">
+        <div class="row py-5">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center">
+                <h2 style="text-align: center;">ABOUT THE DEPARTMENT</h2>
+            <h5 style="text-align: center;">COMPUTER SCIENCE AND ENGINEERING</h5>
+                        <div class="red-border"></div>
+                     <p class="ct-u-size22 ">The Department of Computer Science and Engineering is distinctively positioned to educate the technological leaders of tomorrow. Our goal is to ensure our engineering graduates to be problem solvers, project leaders, entrepreneurs, and ethical citizens of global society. Through innovative teaching-learning process, a teamwork approach and leadership building experience, our students gain vital communication and critical-thinking skills. We provide a platform for the students to enhance their employability skills through Industry Institute Collaboration.Our labs, with latest facilities and unlimited Internet facility, give our students a cutting edge in technical exploration and enhance their information search and analysis skills. The scope of Computer Science is endless.The department has many MOUs with various organizations and have CISCO Networking Academy, AWS Academy, Blue Prism Academy, Redhat Academy, Paloalto Cyber Security Academy Blackbuck Excellence Centre, Swecha Learning Centre etc. for imparting essential technical skills, through which the faculty members and students of department are being benefitted.
+                </p>
+
+            </div>
+        </div>
+</div>
+</section>
+
+
 <section class="culture-section ">
-    <div class="container py-3">
-          <h2>Facilities</h2>
-	<div class="red-border"></div>
-          		<p class="ct-u-size22 ">To facilitate effectual teaching and learning activities The department has excellent infrastructure<br>
+<div class="container">
+        <div class="row py-5">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center">
+                          <h2 style="text-align: center;">Facilities</h2>
+    <div class="red-border"></div>
+                <p class="ct-u-size22 ">To facilitate effectual teaching and learning activities The department has excellent infrastructure<br>
 1)  Air-conditioned Auditorium<br>
 2)ICT enabled Classrooms with Interactive Boards, Projectors and Screens<br>
 3)Well-equipped Laboratories<br>
@@ -43,13 +75,17 @@
 </p>
 <p>
 <b><i class='fa fa-camera-retro'></i> CC cameras, in labs and corridors ensures regular monitoring of the class work and lab sessions. Also ensures safety in the department.</b>
-</p></div>
+</p>
+
 </div>
-  </section>
-  <section class="customers-section ">
+</div></div>
+</section>
+
+
+<section class="customers-section ">
  <div class="container py-3">
           <h2>INFRASTRUCTURE</h2>
-	 <div class="red-border"></div>
+     <div class="red-border"></div>
           <p class="ct-u-size22 ">The department has ample labs, even beyond curriculum requirements.the students may utilize them for their career prospects. CSE-labs are allotted to the students every week as per the timetable. Apart from the regular labs, a research lab is also available for faculties and students to carry out their research and project work. The maintenance of infrastructure and facilities at the Department is carried out in a timely and thorough manner to ensure maximum availability and minimum downtime of the equipment and services. All the lab facilities and services are made available to the students even after college hours and holidays to enable their maximum utilization and benefit to the students.</p>
 
 <main>
@@ -77,8 +113,15 @@
       </div>
   </section>
 
-<?php
-  include 'footer.php';
-?>
+
+
+
+
+
+
+	<?php
+	include 'footer.php';
+	?>
+
 </body>
 </html>

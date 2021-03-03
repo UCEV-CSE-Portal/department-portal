@@ -42,7 +42,7 @@
         </div>
         <div class="row">
           <div class="col-lg-4">
-            <img src="assets/img/team/srk sir-3.jpg" class="img-fluid" alt="">
+            <img src="assets/img/team/DSC_3508.JPG" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Assistant Professor</h3>

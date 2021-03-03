@@ -41,15 +41,15 @@
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
-                                <a href="../../Faculty Achievements 2016-2017.php">Faculty Achievements 2016-2017</a></li>
+                                <a href="../../Faculty Achievements 2016-2017.php">2016-2017</a></li>
                                         <li class="dropdown-link" >
-                                    <a href="../../Faculty Achievements 2017-2018.php">Faculty Achievements 2017-2018</a></li>
+                                    <a href="../../Faculty Achievements 2017-2018.php">2017-2018</a></li>
                                     <li class="dropdown-link" >
-                                    <a href="../../Faculty Achievements 2018-2019.php">Faculty Achievements 2018-2019</a></li>
+                                    <a href="../../Faculty Achievements 2018-2019.php">2018-2019</a></li>
                                      <li class="dropdown-link" >
-                                    <a href="../../Faculty Achievements 2019-2020.php">Faculty Achievements 2019-2020</a></li>
+                                    <a href="../../Faculty Achievements 2019-2020.php">2019-2020</a></li>
                                     <li class="dropdown-link" >
-                                    <a href="../../Faculty Achievments 2020-2021.php">Faculty Achievements 2020-2021</a></li>
+                                    <a href="../../Faculty Achievments 2020-2021.php">2020-2021</a></li>
                                         </ul>
                                     </div>
                              </li>
@@ -59,19 +59,19 @@
                                         <div class="dropdown">
                                         <ul>
                                           <li class="dropdown-link" >
-                                           <a href="../../2013-14achievements.php">Student Achievements 2013-2014</a></li>
+                                           <a href="../../2013-14achievements.php">2013-2014</a></li>
                                            <li class="dropdown-link" >
-                                            <a href="../../2014-15achievements.php">Student Achievements 2014-2015</a></li>
+                                            <a href="../../2014-15achievements.php">2014-2015</a></li>
                                             <li class="dropdown-link" >
-                                             <a href="../../2015-16achievements.php">Student Achievements 2015-2016</a></li>
+                                             <a href="../../2015-16achievements.php">2015-2016</a></li>
                                              <li class="dropdown-link">
-                                            <a href="../../2016-17achievements.php">Student Achievements 2016-2017</a></li>
+                                            <a href="../../2016-17achievements.php">2016-2017</a></li>
                                             <li class="dropdown-link" >
-                                             <a href="../../2017-18achievements.php">Student Achievements 2017-2018</a></li>
+                                             <a href="../../2017-18achievements.php">2017-2018</a></li>
                                              <li class="dropdown-link" >
-                                             <a href="../../2018-19achievements.php">Student Achievements 2018-2019</a></li>
+                                             <a href="../../2018-19achievements.php">2018-2019</a></li>
                                              <li class="dropdown-link" >
-                                             <a href="../../2019-20achievements.php">Student Achievements 2019-2020</a></li>
+                                             <a href="../../2019-20achievements.php">2019-2020</a></li>
                                         </ul>
                                     </div>
 
@@ -129,7 +129,7 @@
                 </div>
             </div>
             <div class="hamburger-menu-container">
-                <img src="assets/img/ucev.png" class="jntu-icon">
+                <img src="../../assets/img/ucev.png" class="jntu-icon">
                 <div class="hamburger-menu">
                     <div></div>
                 </div>

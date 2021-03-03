@@ -46,7 +46,7 @@
 
         <div class="row">
           <div class="col-lg-4">
-            <img src="../faculty-assets/img/team/aruna mam.jpg" class="img-fluid" alt="">
+            <img src="../faculty-assets/img/team/arunamam.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Assistant Professor</h3>

@@ -41,7 +41,7 @@
 
           <div class="col-lg-6">
             <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic"><img src="assets/faculty-assets/img/team/hod sir-5.jpeg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/faculty-assets/img/photos/hodsir1.JPG" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Dr. A S N CHAKRAVARTHY</h4>
                 <span>Professor and HoD</span>
@@ -62,7 +62,7 @@
 
            <div class="col-lg-6 mt-4 mt-lg-0">
             <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic"><img src="assets/faculty-assets/img/team/rajyalakshmi.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/faculty-assets/img/photos/rajyalakshmi.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>D. Rajya Lakshmi</h4>
                 <span>Professor </span>
@@ -148,7 +148,7 @@
 
           <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-              <div class="pic"><img src="assets/faculty-assets/img/team/aruna mam.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/faculty-assets/img/photos/arunamam.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>P. Aruna Kumari</h4>
                 <span>Assistant Professor</span>
@@ -167,7 +167,7 @@
 
           <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="500">
-              <div class="pic"><img src="assets/faculty-assets/img/team/sivaram sir-2.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/faculty-assets/img/photos/DSC_3567.JPG" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>D D V Sivaram Rolangi</h4>
                 <span>Assistant Professor</span>
@@ -186,7 +186,7 @@
 
   <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="500">
-              <div class="pic"><img src="assets/faculty-assets/img/team/radha sir.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/faculty-assets/img/photos/radhakrishna.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>S.Radha Krishna</h4>
                 <span>Assistant Professor</span>
@@ -225,7 +225,7 @@
 
 <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="600">
-              <div class="pic"><img src="assets/faculty-assets/img/team/amardeep sir.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/faculty-assets/img/photos/amardeepsir.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Yerra V Amardeep</h4>
                 <span>Assistant Professor</span>
@@ -244,7 +244,7 @@
 
           <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="800">
-              <div class="pic"><img src="assets/faculty-assets/img/team/narayana rao sir.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/faculty-assets/img/photos/narayanaraosir.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Vemulada Narayanarao</h4>
                 <span>Assistant Professor</span>
@@ -265,7 +265,7 @@
 
           <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="900">
-              <div class="pic"><img src="assets/faculty-assets/img/team/laxmi prasad sir.jfif" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/faculty-assets/img/photos/prasadsir.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>V. Laxmi Prasad</h4>
                
@@ -285,7 +285,7 @@
 
           <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="1000">
-              <div class="pic"><img src="assets/faculty-assets/img/team/madhuri mam.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/faculty-assets/img/photos/geethamam.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                  <h4>M. Geetha Madhuri</h4>
                 <span>Assistant Professor</span>

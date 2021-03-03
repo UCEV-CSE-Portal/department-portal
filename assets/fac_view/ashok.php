@@ -11,7 +11,7 @@ Ashok Suragala profile</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
  <?php
-  include 'nav.php';
+  include 'facultylinks.php';
   ?>
 
   <!-- Favicons -->

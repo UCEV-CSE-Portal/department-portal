@@ -31,9 +31,17 @@
 	include 'nav.php';
 	?>
 	<br>
-	<div class="container">
-<img src="assets/img/placement.png" alt="img" style="display:flex;width: 70% ;height: 30%;margin-left: 185px; ">
-	</div>
+
+
+<div class="container">
+        <div class="row py-5">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center">
+                <img class="img-responsive profileImg" src="assets/img/placement.png" alt="placement" style="width: 100%;height: auto">
+                    
+            </div>
+</div></div>
+
+	
 	<br>
 
 

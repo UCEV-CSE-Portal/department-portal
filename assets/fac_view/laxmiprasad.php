@@ -48,7 +48,7 @@ V .Laxmi Prasad profile</title>
 
         <div class="row">
           <div class="col-lg-4">
-            <img src="assets/img/team/laxmi prasad sir.jpg" class="img-fluid" alt="">
+            <img src="assets/img/team/prasadsir.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Assistant Professor</h3>

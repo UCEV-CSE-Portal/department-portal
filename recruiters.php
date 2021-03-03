@@ -27,20 +27,23 @@
 	?>
 	<br>
 
-<<div class="container-fluid">
+
+
+
+
+<!--<div class="container-fluid">
 	<div class="row">
-		<div class="col-md-6">
+		<div class="col-xs-12 col-sm-12 col-md-6  col-lg-6">
 			<h2 style="text-align:center">BANKS</h2><br>
 			<img alt="Bootstrap Image Preview" src="assets/img/banks.png" style="width: 94%;height:85%;" />
 
 		</div>
-		<div class="col-md-6">
+		<div class="col-xs-12 col-sm-6 col-md-6  col-lg-6 ">
 			<h2 style="text-align: center;">FOREIGN UNIVERSITIES</h2><br>
 			<img alt="Bootstrap Image Preview" src="assets/img/funiv.png" style="width:100%;height:90%; "/>
 		</div>
 	</div>
-	<br>
-	<br>
+
 	<div class="row">
 		<div class="col-md-12">
 			<h2 style="text-align:center">COMPANIES</h2><br>
@@ -58,6 +61,74 @@
 		</div>
 	</div>
 </div>
+-->
+
+
+
+
+<body>
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="thumbnail">
+				<h3 style="text-align:center;"><br>BANKS<br><br></h3>
+        <a href="assets/img/banks.png" target="_blank">
+          <img src="assets/img/banks.png" alt="Lights" style="width:100%;">
+
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="thumbnail">
+				<h3 style="text-align:center"><br>FOREIGN UNIVERSITIES<br><br></h3>
+        <a href="assets/img/funiv.png" target="_blank">
+          <img src="assets/img/funiv.png" alt="Nature" style="width:100%">
+
+        </a>
+      </div>
+    </div>
+
+		<br>
+    <div class="col-md-12">
+      <div class="thumbnail">
+				<br>
+				<h3 style="text-align:center">COMPANIES<br><br></h3>
+        <a href="assets/img/com.png" target="_blank">
+          <img src="assets/img/com.png" alt="Fjords" style="width:100%">
+
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="thumbnail">
+				<br>
+				<h3 style="text-align:center">INDIAN UNIVERSITIES<br><br><br></h3>
+        <a href="assets/img/luniv.png" target="_blank">
+          <img src="assets/img/luniv.png" alt="Fjords" style="width:100%">
+
+        </a>
+      </div>
+    </div>
+		<br><br>
+    <div class="col-md-6">
+      <div class="thumbnail">
+				<br>
+				<h3 style="text-align:center">PSU's<br><br></h3>
+        <a href="assets/img/psu.png" target="_blank">
+          <img src="assets/img/psu.png" alt="Fjords" style="width:100%">
+
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
 
 <?php
 	include 'footer.php';

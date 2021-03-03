@@ -45,7 +45,7 @@
 
         <div class="row">
           <div class="col-lg-4">
-            <img src="assets/img/team/rajyalakshmi.jpg" class="img-fluid" alt="">
+            <img src="assets/img/team/DSC_3666.JPG" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Professor</h3>
